@@ -1,0 +1,1356 @@
+{
+  "shipData": {
+    "31": {"destroyExplosion": 9, "scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "1": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "194": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "2": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "187": {"scale": 350, "destroyExplosion": 8, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false, "soulTaker": true, "soulTakerColor": "FF0000"},
+    "3": {"scale": 300, "engineClass": "viper", "laserClass": "viper","offsetId": 29},
+    "110": {"scale": 300, "engineClass": "viper", "laserClass": "viper", "offsetId": 29},
+    "111": {"scale": 300, "engineClass": "viper", "laserClass": "viper", "offsetId": 29},
+    "112": {"scale": 300, "engineClass": "viper", "laserClass": "viper", "offsetId": 29},
+    "160": {"visualExpansions": [23], "midasBehaviorNpcExplode": true, "midasTouch": true, "destroyExplosion": false, "destroyShockwave": false, "scale": 300, "engineClass": "viper", "laserClass": "viper", "offsetId": 29, "engineType": 2},
+    "129": {"scale": 300, "engineClass": "viper", "laserClass": "viper", "offsetId": 29, "destroyExplosion": 3, "destroyShockwave": false},
+    "4": {"scale": 300, "engineClass": "viper", "laserClass": "viper", "offsetId": 29},
+    "5": {"scale": 300, "engineClass": "viper", "laserClass": "viper", "offsetId": 29, "clickRadius": 55},
+    "6": {"scale": 200, "engineClass": "phoenix", "laserClass": "phoenix", "offsetId": 22, "clickRadius": 40, "engineTop": false},
+    "195": {"scale": 200, "engineClass": "phoenix64", "laserClass": "phoenix64", "offsetId": 22, "clickRadius": 40, "engineTop": false},
+    "196": {"scale": 200, "engineClass": "phoenix64", "laserClass": "phoenix64", "offsetId": 22, "clickRadius": 40, "engineTop": false},
+    "197": {"scale": 200, "engineClass": "phoenix64", "laserClass": "phoenix64", "offsetId": 22, "clickRadius": 40, "engineTop": false},
+    "163": {"scale": 200, "engineClass": 0, "laserClass": 0, "offsetId": 1, "clickRadius": 40},
+    "130": {"scale": 200, "engineClass": 0, "laserClass": 0, "offsetId": 1, "engineType": 1},
+    "7": {"scale": 200, "engineClass": 3, "laserClass": 3, "offsetId": 7, "clickRadius": 40, "engineTop": false},
+    "8": {"scale": 200, "engineClass": "defcom", "laserClass": "defcom", "offsetId": 33, "clickRadius": 40},
+    "9": {"scale": 200, "engineClass": 5, "laserClass": 5, "offsetId": 18},
+    "165": {"scale": 200, "engineClass": "saboteur", "laserClass": "saboteur", "offsetId": 26, "engineTop": false},
+    "166": {"scale": 500, "engineClass": "convoy", "laserClass": "convoy", "offsetId": 34, "guideOnTarget":false},
+    "167": {"scale": 500, "engineClass": "battleray", "laserClass": "battleray", "engineTop": false, "offsetId": 34},
+    "147": {"overrideId": 10, "scale": 200, "engineClass": 5, "laserClass": 5, "offsetId": 18},
+    "109": {"scale": 200, "engineClass": 5, "laserClass": 9999, "offsetId": 18},
+    "10": {"scale": 200, "engineClass": 6, "laserClass": 6, "offsetId": 10, "clickRadius": 40, "engineTop": false},
+    "11": {"scale": 200, "engineClass": 7, "laserClass": 7, "offsetId": 11, "clickRadius": 40},
+    "12": {"scale": 200, "engineClass": "nostormo", "laserClass": "nostormo", "offsetId": 6, "clickRadius": 50},
+    "106": {"scale": 200, "engineClass": "nstarhawk", "laserClass": "nstarhawk", "offsetId": 6, "clickRadius": 50},
+    "179": {"scale": 200, "engineClass": "nstarhawk", "laserClass": "nstarhawk", "offsetId": 6, "clickRadius": 50, "visualExpansions": [24], "rageTrail": true},
+    "191": {"visualExpansions": [28], "scale": 200, "engineClass": "nstarhawk", "laserClass": "nstarhawk", "offsetId": 6, "clickRadius": 50, "frostyTrail": true},
+    "13": {"scale": 300, "engineClass": "geirod", "laserClass": "geirod", "offsetId": 1, "clickRadius": 60},
+    "14": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 27, "engineExpansion": false, "engineTop": false},
+    "15": {"scale": 300, "engineClass": "viper", "laserClass": "viper", "offsetId": 29, "clickRadius": 55},
+    "16": {"scale": 300, "engineClass": "viper", "laserClass": "viper", "offsetId": 29, "clickRadius": 55},
+    "17": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "18": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "19": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "20": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "21": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "83": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false, "destroyShockwave": false},
+    "139": {"scale": 300, "overrideId": 10, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false, "destroyExplosion": 4, "destroyShockwave": false, "soulTaker": true, "soulTakerSkillAfter": 13, "soulTakerColor": "#ff07ac"},
+    "82": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "198": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "199": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "200": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "201": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "202": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "203": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "204": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "205": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "22": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "23": {"scale": 300, "engineClass": "spectrumv2", "laserClass": "spectrumv2", "offsetId": 14, "engineTop": false},
+    "172": { "visualExpansions": [24], "rageTrail": true, "scale": 300, "engineClass": "spectrum64", "laserClass": "spectrum64", "offsetId": 14, "engineTop": false},
+    "184": { "scale": 300, "engineClass": "spectrum64", "laserClass": "spectrum64", "offsetId": 14, "engineTop": false},
+    "155": {"scale": 300, "visualExpansions": [23], "midasBehaviorNpcExplode": true, "midasTouch": true, "destroyExplosion": false, "destroyShockwave": false, "engineType": 2, "engineClass": "spectrumv2", "laserClass": "spectrumv2", "offsetId": 14, "engineTop": false},
+    "132": {"scale": 400, "visualExpansions": [28], "engineClass": "spectrumv2", "laserClass": "spectrumv2", "offsetId": 14, "engineTop": false, "frostyTrail": true, "frostyTrailTime": 500,  "destroyExplosion": 3, "destroyShockwave": false},
+    "183": {"scale": 300, "engineClass": "solace", "laserClass": "solace", "offsetId": 14},
+    "170": {"scale": 300,  "visualExpansions": [24], "rageTrail": true, "engineClass": "solace", "laserClass": "solace", "offsetId": 14},
+    "137": {"scale": 300, "visualExpansions": [28], "engineClass": "solace", "laserClass": "solace", "offsetId": 14, "frostyTrail": true, "frostyTrailTime": 500,  "destroyExplosion": 3, "rocketDetonation": 2, "rlDetonation": 3, "destroyShockwave": false},
+    "138": {"scale": 300, "visualExpansions": [28], "engineClass": "diminisher", "laserClass": "diminisher", "offsetId": 14, "frostyTrail": true, "frostyTrailTime": 500,  "destroyExplosion": 3, "rocketDetonation": 2, "rlDetonation": 3, "destroyShockwave": false},
+    "24": {"scale": 300, "engineClass": "solace", "laserClass": "solace", "offsetId": 14},
+    "153": { "visualExpansions": [23], "midasBehaviorNpcExplode": true, "midasTouch": true, "destroyExplosion": false, "destroyShockwave": false, "engineType": 2, "scale": 300, "engineClass": "solace", "laserClass": "solace", "offsetId": 14},
+    "168": {"visualExpansions": [24], "rageTrail": true, "scale": 375, "engineClass": "venom", "laserClass": "venom", "offsetId": 14, "clickRadius": 70},
+    "25": {"scale": 375, "engineClass": "venom", "laserClass": "venom", "offsetId": 14, "clickRadius": 70},
+    "190": {"scale": 375, "engineClass": "venom", "laserClass": "venom", "offsetId": 14, "clickRadius": 70},
+    "156": {"scale": 375, "visualExpansions": [23], "midasBehaviorNpcExplode": true, "midasTouch": true, "destroyExplosion": false, "destroyShockwave": false, "engineType": 2, "engineClass": "venom", "laserClass": "venom", "offsetId": 14, "clickRadius": 70},
+    "146": {"scale": 375, "engineClass": "venom", "laserClass": "venom", "offsetId": 14, "clickRadius": 70},
+    "26": {"scale": 300, "engineClass": "diminisher", "laserClass": "diminisher", "offsetId": 14, "clickRadius": 70, "engineTop": false},
+    "189": {"scale": 300, "engineClass": "diminisher", "laserClass": "diminisher", "offsetId": 14, "clickRadius": 70, "engineTop": false},
+    "171": { "visualExpansions": [24], "rageTrail": true, "scale": 300, "engineClass": "diminisher", "laserClass": "diminisher", "offsetId": 14, "clickRadius": 70, "engineTop": false},
+    "154": {"scale": 300, "visualExpansions": [23], "midasBehaviorNpcExplode": true, "midasTouch": true, "destroyExplosion": false, "destroyShockwave": false, "engineType": 2, "engineClass": "diminisher", "laserClass": "diminisher", "offsetId": 14, "clickRadius": 70, "engineTop": false},
+    "169": {"visualExpansions": [24], "rageTrail": true, "scale": 375, "engineClass": "sentinel", "laserClass": "sentinel", "offsetId": 27, "clickRadius": 70, "engineTop": false},
+    "27": {"scale": 375, "engineClass": "sentinelv2", "laserClass": "sentinelv2", "offsetId": 27, "clickRadius": 70, "engineTop": false},
+    "188": {"scale": 375, "engineClass": "sentinel", "laserClass": "sentinelNew", "offsetId": 27, "clickRadius": 70, "engineTop": false},
+    "151": {"scale": 375, "visualExpansions": [23], "midasBehaviorNpcExplode": true, "midasTouch": true, "destroyExplosion": false, "destroyShockwave": false, "engineType": 2, "engineClass": "sentinel", "laserClass": "sentinel", "offsetId": 27, "clickRadius": 70, "engineTop": false},
+    "149": {"scale": 375, "visualExpansions": [28], "engineClass": "sentinel", "laserClass": "sentinel", "offsetId": 27,"engineTop": false, "frostyTrail": true, "frostyTrailTime": 500,  "destroyExplosion": 3, "rocketDetonation": 2, "rlDetonation": 3, "destroyShockwave": false},
+    "148": {"scale": 375, "visualExpansions": [28], "engineClass": "venom", "laserClass": "venom", "offsetId": 27,"engineTop": false, "frostyTrail": true, "frostyTrailTime": 500,  "destroyExplosion": 3, "rocketDetonation": 2, "rlDetonation": 3, "destroyShockwave": false},
+    "28": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "107": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},    
+    "29": {"scale": 350, "engineClass": "vlight", "laserClass": "vlight", "offsetId": 29, "clickRadius": 55},
+    "185": {"scale": 350, "engineClass": "vlight", "laserClass": "vlight", "offsetId": 29, "clickRadius": 55},
+    "186": {"scale": 350, "engineClass": "vlight", "laserClass": "vlight", "offsetId": 29, "clickRadius": 55, "destroyExplosion": 7, "soulTaker": true, "soulTakerColor": "FF0000"},
+    "30": {"scale": 350, "engineClass": "vlight", "laserClass": "vlight", "offsetId": 29, "clickRadius": 55},
+    "32": {"scale": 200, "engineClass": "streuner", "laserClass": "streuner", "offsetId": 22, "clickRadius": 40},
+    "33": {"scale": 200,  "overrideId": 1, "engineClass": 9999, "laserClass": 9999, "offsetId": 23},
+    "34": {"scale": 200,  "overrideId": 1,"engineClass": 21, "laserClass": 9999, "offsetId": 24, "clickRadius": 70},
+    "35": {"scale": 200,  "overrideId": -1, "engineClass": 9999, "laserClass": 9999, "offsetId": 25, "spinTime": 3000},
+    "36": {"scale": 300, "overrideId": 2, "engineClass": 9999, "laserClass": 9999, "offsetId": 26, "clickRadius": 70},
+    "37": { "scale": 400, "overrideId": 3, "engineClass": 9999, "laserClass": 9999, "offsetId": 32, "clickRadius": 70},
+    "38": {"scale": 200, "overrideId": 1, "engineClass": 9999, "laserClass": 9999, "offsetId": 28},
+    "39": {"scale": 300, "overrideId": 4, "engineClass": 9999, "laserClass": 9999, "offsetId": 29},
+    "40": {"scale": 200, "overrideId": 5, "engineClass": 9999, "laserClass": 9999, "offsetId": 30},
+    "41": {"scale": 350, "overrideId": 5, "engineClass": 9999, "laserClass": 9999, "offsetId": 31},
+    "42": { "overrideId": 6, "engineClass": 9999, "laserClass": 9999, "offsetId": 34, "isSpinny": true, "spinTime": 60000},
+    "1000": { "overrideId": 6, "engineClass": 9999, "laserClass": 9999, "offsetId": 34, "isSpinny": true, "isImportant": true,"displayHits": false, "structureBar": false, "spinTime": 1500},
+    "1100": { "overrideId": 6, "engineClass": 9999, "laserClass": 9999, "offsetId": 34, "isSpinny": false, "drawInfo": false, "showOnMinimap": false, "isImportant": false,"displayHits": false, "structureBar": false, "spinTime": 1000},
+    "150": { "visualExpansions": [22], "overrideId": 6, "shipExpansionAlpha": true, "engineClass": 9999, "laserClass": 9999, "offsetId": 32, "isBeacon": true, "useDot": "beaconPassive"},
+    "85": { "overrideId": 6, "engineClass": 9999, "laserClass": 9999, "offsetId": 8, "isSpinny": true, "spinTime": 30000},
+    "43": {"scale": 200, "overrideId": 6, "engineClass": 9999, "laserClass": 9999, "offsetId": 33, "clickRadius": 70},
+    "44": {"scale": 200, "engineClass": "vagrant", "laserClass": "vagrant", "offsetId": 33},
+    "45": {"scale": 300, "engineClass": "outcast", "laserClass": "outcast", "offsetId": 33},
+    "46": {"scale": 300, "engineClass": "outcast", "laserClass": "outcast", "offsetId": 33},
+    "47": {"scale": 300, "engineClass": "convict", "laserClass": "convict", "offsetId": 26},
+    "48": {"scale": 300, "engineClass": "hooligan", "laserClass": "hooligan", "offsetId": 4},
+    "49": {"scale": 300, "engineClass": "hooligan", "laserClass": "hooligan", "offsetId": 4, "clickRadius": 70},
+    "50": {"scale": 300, "engineClass": "corsair", "laserClass": "corsair", "offsetId": 2},
+    "51": { "engineClass": 9999, "laserClass": 24, "offsetId": 32, "clickRadius": 70, "scale": 600},
+    "52": {"scale": 200, "engineClass": 26, "laserClass": 26, "offsetId": 33, "clickRadius": 70, "engineTop": false},
+    "53": {"scale": 300, "engineClass": 27, "laserClass": 27, "offsetId": 26, "clickRadius": 70, "engineTop": false},
+    "54": {"scale": 300, "engineClass": 28, "laserClass": 28, "offsetId": 27, "clickRadius": 70, "engineTop": false},
+    "55": {"scale": 200, "engineClass": 9999, "laserClass": "infernal", "offsetId": 33, "clickRadius": 70},
+    "56": {"scale": 200, "engineClass": 9999, "laserClass": "scorcher", "offsetId": 33, "clickRadius": 70},
+    "57": {"scale": 300, "engineClass": 9999, "laserClass": "melter", "offsetId": 25, "clickRadius": 70},
+    "58": { "explosionSize": 1.5, "engineClass": 9999, "laserClass": 9999, "scale": 700, "offsetId": 34, "clickRadius": 70},
+    "114": { "engineClass": 9999, "laserClass": 9999, "offsetId": 13, "clickRadius": 70, "emitNoise": true},
+    "59": {"scale": 200, "engineClass": "streunerAdvanced", "laserClass": "streunerAdvanced", "offsetId": 25, "clickRadius": 70},
+    "60": {"scale": 200, "engineClass": "streunerAdvanced", "laserClass": "streunerAdvanced", "offsetId": 25, "clickRadius": 70},
+    "61": {"scale": 200, "overrideId": 1, "engineClass": 34, "laserClass": 34, "offsetId": 25, "clickRadius": 70},
+    "62": {"scale": 200,"engineClass": "streuner", "laserClass": "streunerBoss", "offsetId": 22, "clickRadius": 40},
+    "63": {"scale": 200, "overrideId": 1, "engineClass": 9999, "laserClass": 9999, "offsetId": 24, "clickRadius": 70},
+    "65": {"scale": 200, "overrideId": -1, "engineClass": 9999, "laserClass": 9999, "offsetId": 25, "clickRadius": 70, "isSpinny": true, "spinTime": 3000},
+    "66": {"scale": 300, "overrideId": 2, "engineClass": 9999, "laserClass": 9999, "offsetId": 26, "clickRadius": 70},
+    "67": { "overrideId": 3, "engineClass": 9999, "laserClass": 9999, "offsetId": 32, "clickRadius": 70},
+    "68": {"scale": 200, "overrideId": 1, "engineClass": 9999, "laserClass": 9999, "offsetId": 28, "clickRadius": 70},
+    "69": {"scale": 300, "overrideId": 4,"engineClass": 9999, "laserClass": 9999, "offsetId": 29, "clickRadius": 70},
+    "70": {"scale": 200, "overrideId": 5, "engineClass": 9999, "laserClass": 9999, "offsetId": 30, "clickRadius": 70},
+    "71": { "overrideId": 5, "engineClass": 9999, "laserClass": 9999, "offsetId": 31, "clickRadius": 70},
+    "72": {"scale": 200, "overrideId": 5, "engineClass": 9999, "laserClass": 9999, "offsetId": 30, "clickRadius": 70},
+    "73": { "overrideId": 5, "engineClass": 9999, "laserClass": 9999, "offsetId": 31, "clickRadius": 70},
+    "74": {"scale": 200, "overrideId": 6, "engineClass": 9999, "laserClass": 9999, "offsetId": 25, "clickRadius": 70, "isSpinny": true, "spinTime": 3000},
+    "75": { "overrideId": 6, "engineClass": 9999, "laserClass": 9999, "offsetId": 34, "clickRadius": 70, "isSpinny": true, "spinTime": 1500},
+    "118": { "overrideId": 6, "engineClass": 9999, "laserClass": 9999, "offsetId": 34, "clickRadius": 70, "isSpinny": true, "spinTime": 1500},
+    "76": {"scale": 200, "engineClass": 36, "laserClass": 36, "offsetId": 17, "clickRadius": 70},
+    "77": { "engineClass": 9999, "laserClass": 9999, "offsetId": 17, "clickRadius": 70},
+    "117": {"scale": 200, "engineClass": 9999, "laserClass": 9999, "offsetId": 17, "clickRadius": 70},
+    "78": {"scale": 300, "engineClass": "gryphonFaction", "laserClass": "gryphonFaction", "offsetId": 14, "clickRadius": 70, "engineTop": false},
+    "79": {"scale": 300, "engineClass": "gryphonFaction", "laserClass": "gryphonFaction", "offsetId": 14, "clickRadius": 70, "engineTop": false},
+    "175": {"scale": 300, "engineClass": "gryphonPirate", "laserClass": "gryphonPirate", "offsetId": 36, "clickRadius": 70, "engineTop": false, "destroyExplosion": 5},
+    "176": {"scale": 400, "engineClass": "warden", "laserClass": "warden", "offsetId": 36, "clickRadius": 70, "engineTop": false},
+    "210": {"visualExpansions": [23], "midasBehaviorNpcExplode": true, "midasTouch": true, "destroyExplosion": false, "destroyShockwave": false, "engineType": 2, "scale": 400, "engineClass": "wardenv2", "laserClass": "warden", "skillExtra": "Gold", "offsetId": 36, "clickRadius": 70, "engineTop": false},
+    "211": {"visualExpansions": [23], "midasBehaviorNpcExplode": true, "midasTouch": true, "destroyExplosion": false, "destroyShockwave": false, "engineType": 2, "scale": 400, "engineClass": "seraphv2", "laserClass": "aegis", "offsetId": 36, "clickRadius": 70, "engineTop": false},
+    "193": {"frostyTrail": true, "visualExpansions": [28,29], "scale": 400, "engineClass": "warden", "laserClass": "warden", "offsetId": 36, "clickRadius": 70, "engineTop": false},
+    "192": { "frostyTrail": true, "visualExpansions": [28,30], "scale": 400, "engineClass": "aegis", "laserClass": "aegis", "offsetId": 36, "clickRadius": 70, "engineTop": false},
+    "177": { "visualExpansions": [25], "scale": 400, "engineClass": "aegis", "laserClass": "aegis", "offsetId": 36, "clickRadius": 70, "engineTop": false},
+    "173": {"scale": 300, "trailTime": 300, "visualExpansions": [24], "rageTrail": true, "engineClass": "gryphonFaction", "laserClass": "gryphonFaction", "offsetId": 14, "clickRadius": 70, "engineTop": false},
+    "80": {"scale": 400, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 14, "clickRadius": 70, "engineTop": false},
+    "152": {"visualExpansions": [23], "midasBehaviorNpcExplode": true, "midasTouch": true, "destroyExplosion": false, "destroyShockwave": false, "engineType": 2, "scale": 300, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 14, "clickRadius": 70, "engineTop": false},
+    "81": {"scale": 300, "engineClass": "gryphonAlien", "laserClass": "gryphonAlien", "offsetId": 26, "engineExpansion": true, "engineTop": false},
+    "84": {"engineClass": "pal64", "laserClass": "pal64", "offsetId": 2, "clickRadius": 70},
+    "131": {"engineClass": 38, "laserClass": 40, "offsetId": 2, "clickRadius": 70},
+    "86": {"engineClass": 38, "laserClass": 40, "offsetId": 2, "clickRadius": 70},
+    "87": {"engineClass": 38, "laserClass": 40, "offsetId": 2, "clickRadius": 70},
+    "158": {"visualExpansions": [23], "midasBehaviorNpcExplode": true, "midasTouch": true, "destroyExplosion": false, "destroyShockwave": false, "engineType": 2, "engineClass": 38, "laserClass": 40, "offsetId": 2, "clickRadius": 70},
+    "182": { "engineClass": "pal64", "laserClass": "pal64", "offsetId": 2, "clickRadius": 70},
+    "174": {"visualExpansions": [24],  "engineClass": "pal64", "laserClass": "pal64", "offsetId": 2, "clickRadius": 70},
+    "127": {"engineClass": 38, "laserClass": 40, "offsetId": 2, "clickRadius": 70, "engineType": 1},
+    "108": {"drawInfo": false, "engineClass": 67, "overrideId": 8, "laserClass": "constructionBot", "offsetId": 1, "allowHover": false, "canBeLocked": false, "showOnMinimap": false},
+    "161": {"drawInfo": false, "engineClass": 9999, "overrideId": 9999, "laserClass": "constructionBot", "offsetId": 1, "allowHover": false, "canBeLocked": false, "showOnMinimap": false},
+    "88": {"scale": 600, "engineClass": 9999, "laserClass": 9999, "offsetId": 32, "clickRadius": 70},
+    "124": {"overrideId": 9, "engineClass": 9999, "laserClass": 9999, "offsetId": 34, "clickRadius": 70},
+    "125": {"overrideId": 9, "engineClass": 9999, "laserClass": 9999, "offsetId": 13, "clickRadius": 70},
+    "162": {"overrideId": 9, "engineClass": 9999, "laserClass": 9999, "offsetId": 13, "clickRadius": 70},
+    "157": {"overrideId": 11, "engineClass": 9999, "laserClass": 9999, "offsetId": 13, "clickRadius": 70},
+    "89": {"engineClass": 9999, "laserClass": 68, "offsetId": 32, "clickRadius": 70},
+    "126": {"engineClass": 9999, "laserClass": 68, "offsetId": 32, "clickRadius": 70},
+    "90": {"engineClass": 9999, "laserClass": 38, "offsetId": 1, "clickRadius": 70},
+    "91": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "92": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "93": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "94": {"scale": 300, "engineClass": "gryphonAlien", "laserClass": "gryphonAlien", "offsetId": 26, "engineTop": false},
+    "140": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "95": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "115": {"scale": 300, "destroyExplosion": 7, "soulTaker": true, "soulTakerColor": "FF0000", "engineClass": "gryphonAlien", "laserClass": "gryphonAlien", "offsetId": 26, "engineExpansion": true, "engineTop": false},
+    "119": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "120": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "121": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "181": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "180": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false, "engineType": 2},
+    "122": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "123": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "143": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "164": {"midasBehaviorNpcExplode": true,"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false, "midasTouch": true, "midasTouchColor": [244,189,183], "midasTouchExplosion": 3, "midasAbsorbHue": 60, "destroyExplosion": false, "destroyShockwave": false},
+    "144": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "145": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false},
+    "141": {"scale": 350, "visualExpansions": [28], "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false, "destroyExplosion": 3, "destroyShockwave": false},
+    "128": {"scale": 300, "engineClass": "gryphonAlien", "laserClass": "gryphonAlien", "offsetId": 26, "engineTop": false, "destroyExplosion": 3, "destroyShockwave": false},
+    "142": {"scale": 350, "rotateTime": 60, "engineClass": "gryphonReloaded", "laserClass": "gryphonReloaded", "offsetId": 26, "engineTop": false, "soulTaker": true},
+    "133": {"scale": 300, "engineClass": "gryphonAlien", "laserClass": "gryphonAlien", "offsetId": 26, "engineTop": false, "soulTaker": true},
+    "134": {"scale": 300, "engineClass": "gryphonAlien", "laserClass": "gryphonAlien", "offsetId": 26, "engineExpansion": true, "engineTop": false, "destroyExplosion": 3, "destroyShockwave": false},
+    "135": {"scale": 300, "engineClass": "gryphonAlien", "laserClass": "gryphonAlien", "offsetId": 26, "engineExpansion": true, "engineTop": false, "destroyExplosion": 3, "destroyShockwave": false},
+    "136": {"scale": 300, "engineClass": "gryphonAlien", "laserClass": "gryphonAlien", "offsetId": 26, "engineExpansion": true, "engineTop": false, "destroyExplosion": 3, "destroyShockwave": false},
+    "116": {"scale": 300, "engineClass": "gryphonAlien", "laserClass": "gryphonAlienPumpkin", "offsetId": 26, "engineExpansion": true, "engineTop": false, "overrideId": 7},
+    "96": {"scale": 200, "cbsModule": true, "engineClass": 9999, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 1, "isSpinny": true, "spinTime": 10000},
+    "97": {"scale": 200, "cbsModule": true, "engineClass": 9999, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 1, "isSpinny": true, "spinTime": 10000},
+    "98": {"scale": 200, "cbsModule": true, "engineClass": 9999, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 1, "isSpinny": true, "spinTime": 10000},
+    "99": {"scale": 200, "cbsModule": true, "engineClass": 9999, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 1, "isSpinny": true, "spinTime": 10000},
+    "105": {"engineClass": 9999, "canBeLocked": false, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 1, "clickRadius": 70, "useSimpleMode": true},
+    "104": {"engineClass": 9999, "canBeLocked": false, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 1, "clickRadius": 70, "useSimpleMode": true, "forceSimpleRotation": true, "hideOnArrival": true, "waitForFirstTarget": true, "isSpinny": true, "spinTime": 1000},
+    "208": {"engineClass": 9999, "canBeLocked": false, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 1, "clickRadius": 70, "useSimpleMode": true, "forceSimpleRotation": true, "hideOnArrival": true, "waitForFirstTarget": true, "isSpinny": true, "spinTime": 1000},
+    "209": {"engineClass": 9999, "canBeLocked": false, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 1, "clickRadius": 70, "useSimpleMode": true, "forceSimpleRotation": true, "hideOnArrival": true, "waitForFirstTarget": true, "isSpinny": true, "spinTime": 1000},
+    "100": {"cbsCore": true, "engineClass": 9999, "canBeLocked": false, "allowHover": false, "useDot": "cbsfaction", "allowShowTime": true, "diploAffectDot": true, "destroyedDot": "cbsdead", "laserClass": 9999, "offsetId": 34, "clickRadius": 70, "useController": "config"},
+    "101": {"scale": 650, "cbsCore": true, "engineClass": 9999, "allowHover": false, "useDot": "cbsfaction", "allowShowTime": true, "diploAffectDot": true, "laserClass": 9999, "offsetId": 34, "clickRadius": 70, "useController": "config", "explosionSize": 3},
+    "102": {"scale": 200, "cbsModule": true, "engineClass": 9999, "drawInfo": false, "showOnMinimap": false, "allowHover": true, "laserClass": 9999, "offsetId": 35, "clickRadius": 70, "isSpinny": true, "canBeLocked": false},
+    "113": {"scale": 200, "cbsModule": true, "engineClass": 9999, "drawInfo": false, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 35, "clickRadius": 70, "isSpinny": true, "canBeLocked": false},
+    "103": {"scale": 200, "cbsModule": true, "engineClass": 9999, "lockOffsetY": 40, "showOnMinimap": false, "shieldOffset": 40, "allowHover": false, "laserClass": "laserModule", "offsetId": 35, "clickRadius": 70, "expansionOffsetY": 42, "expansionOffsetX": 0},
+    "207": {"scale": 250,  "overrideId": 1, "engineClass": 9999, "laserClass": 9999, "offsetId": 23},
+    "206": {"scale": 550, "overrideId": 4, "engineClass": 9999, "laserClass": 9999, "offsetId": 29}
+  },  
+  "expansionConfig": {
+    "selfAnimating": [18,19,23,24,28],
+    "animationTime": {
+      "18": 5000,
+      "19": 3000,
+      "23": 3000,
+      "28": 3000,
+      "24": 3000
+    },
+    "belowShip": [23,24,28]
+  },
+  "offsets": {
+    "EXPANSION_OFFSETS": {
+      "12": {"x": 25, "y": -17}
+    },
+    "COLLECTABLES": {
+      "21": {"beamOffset": 100},
+      "22": {"beamOffset": 100},
+      "23": {"beamOffset": 100},
+      "25": {"beamOffset": 40}
+    },
+    "SHIP_OFFSETS": {
+      "1": {"nickY": 70 },
+      "2": { "nickY": 35 },
+      "3": { "nickY": 35 },
+      "4": { "nickY": 50 },
+      "5": { "nickY": 35},
+      "6": { "nickY": 50 },
+      "7": { "nickY": 35 },
+      "8": { "nickY": 20 },
+      "9": { "nickY": 50 },
+      "10": {"nickY": 35 },
+      "11": {"nickY": 35 },
+      "12": {"nickY": 35 },
+      "13": {"nickY": 800 },
+      "14": {"nickY": 150 },
+      "15": {"nickY": 35 },
+      "16": {"nickY": 35 },
+      "17": {"nickY": 35 },
+      "18": {"nickY": 80 },
+      "19": {"nickY": 35 },
+      "20": {"nickY": 20 },
+      "21": {"nickY": 50 },
+      "22": {"nickY": 0 },
+      "23": {"nickY": 0 },
+      "24": {"nickY": 0 },
+      "25": {"nickY": 50 },
+      "26": {"nickY": 120 },
+      "27": {"nickY": 150 },
+      "28": {"nickY": 0 },
+      "29": {"nickY": 95 },
+      "30": {"nickY": 10 },
+      "31": {"nickY": 70 },
+      "32": {"nickY": 220 },
+      "33": {"nickY": 0 },
+      "34": {"nickY": 400 },
+      "35": {"nickY": -20 },
+      "36": {"nickY": 125 }
+    },
+    "ENGINE_OFFSETS": {
+      "0": { "x": 16, "y": 16 }
+    },
+    "GATE_RING_OFFSETS": [
+      { "x": 0, "y": 0 },
+      { "x": 7, "y": 0 },
+      { "x": 14, "y": 0 },
+      { "x": 7, "y": -7 },
+      { "x": 0, "y": -7 },
+      { "x": 14, "y": -7 },
+      { "x": 0, "y": -6 }
+    ],
+    "PORTAL_OFFSETS": {
+      "0": {"yShock": 0, "xShock": 0, "xMargin": 0, "yMargin": 0, "snowOffsetY": 250},
+      "17": {"yShock": 0, "xShock": 0, "xMargin": 0, "yMargin": -50, "snowOffsetY": 250},
+      "18": {"yShock": 0, "xShock": 0, "xMargin": 0, "yMargin": -0, "snowOffsetY": 250},
+      "19": {"yShock": 0, "xShock": 0, "xMargin": 0, "yMargin": -0, "snowOffsetY": 250},
+      "20": {"yShock": 0, "xShock": 0, "xMargin": 0, "yMargin": -0, "snowOffsetY": 250},
+      "1": {"yShock": 20, "xShock": -40, "xMargin": -13, "yMargin": -100},
+      "2": {"yShock": 0, "xShock": 0, "xMargin": 0, "yMargin": 50},
+      "3": {"yShock": 0, "xShock": -30, "xMargin": -20, "yMargin": -100},
+      "4": {"yShock": 0, "xShock": -30, "xMargin": -15, "yMargin": -100},
+      "5": {"yShock": 0, "xShock": -30, "xMargin": -10, "yMargin": -100},
+      "6": {"yShock": -40, "xShock": -20, "xMargin": -20, "yMargin": -30},
+      "7": {"yShock": 20, "xShock": -40, "xMargin": -10, "yMargin": -100},
+      "8": {"yShock": 0, "xShock": 0, "xMargin": -10, "yMargin": -200},
+      "9": {"noShock": true, "yShock": 0, "xShock": 10, "xMargin": -10, "yMargin": -10},
+      "10": {"noShock": true, "yShock": 0, "xShock": 10, "xMargin": -10, "yMargin": -10},
+      "11": {"yShock": 0, "xShock": 0, "xMargin": -10, "yMargin": -10},
+      "12": {"yShock": 0, "xShock": 0, "xMargin": -10, "yMargin": -10},
+      "13": {"yShock": 0, "xShock": 0, "xMargin": -10, "yMargin": -10},
+      "14": {"yShock": 0, "xShock": -0, "xMargin": -10, "yMargin": -10},
+      "16": {"yShock": 0, "xShock": 0, "xMargin": 0, "yMargin": 0}
+    },
+    "LENS_OFFSETS": {
+      "0": {
+        "1": { "x": 85.5, "y": 89 },
+        "2": { "x": 38, "y": 38 },
+        "3": { "x": 17, "y": 17.5 },
+        "4": { "x": 25, "y": 24 },
+        "5": { "x": 68.5, "y": 68 }
+      },
+      "1": {
+        "1": { "x": 85.5, "y": 89 },
+        "2": { "x": 38, "y": 37 },
+        "3": { "x": 17, "y": 17 },
+        "4": { "x": 25, "y": 25 },
+        "5": { "x": 68.5, "y": 68.5 },
+        "6": { "x": 126, "y": 125.5 }
+      },
+      "2": {
+        "1": { "x": 85.5, "y": 89 },
+        "2": { "x": 38, "y": 38 },
+        "3": { "x": 17, "y": 16.5 },
+        "4": { "x": 25, "y": 25 },
+        "5": { "x": 68.5, "y": 68 },
+        "6": { "x": 126, "y": 125.5 }
+      },
+      "3": {
+        "1": { "x": 85.5, "y": 89 },
+        "2": { "x": 38, "y": 37 },
+        "3": { "x": 17, "y": 16.5 },
+        "4": { "x": 25, "y": 24 },
+        "5": { "x": 68.5, "y": 67 },
+        "6": { "x": 126, "y": 125.5 }
+      }
+    },
+    "ROBOT_OFFSETS": {
+      "0": {
+        "arm": {"x": 0, "y": 0},
+        "body": {"x": 29, "y": 29}
+      },
+      "1": {
+        "arm": {"x": 0, "y": 0},
+        "body": {"x": 29, "y": 29}
+      },
+      "2": {
+        "arm": {"x": 0, "y": 0},
+        "body": {"x": 29, "y": 29}
+      }
+    },
+    "EXPLOSION_OFFSETS": {
+      "explosion": {
+        "0": {"x": 200, "y": 200},
+        "1": {"x": 150, "y": 150}
+      },
+      "disrupt": {
+        "0": {"x": 128, "y": 128}
+      },
+      "laser": {
+        "0": {"x": 75, "y": 75, "random": 50},
+        "1": {"x": 75, "y": 75, "random": 50},
+        "2": {"x": 25, "y": 25, "random": 35}
+      },
+      "rocket": {
+       "0": {"x": 37.5, "y": 37.5, "random":35},
+       "1": {"x": 50, "y": 50, "random":60},
+       "2": {"x": 37.5, "y": 37.5, "random":35},
+       "3": {"x": 50, "y": 50, "random":35}
+      },
+      "mine": {
+        "0": {"x": 100, "y": 100},
+        "2": {"x": 100, "y": 100},
+        "3": {"x": 100, "y": 100},
+        "4": {"x": 100, "y": 100}
+      },
+      "firework": {
+        "1": {"x": 125, "y": 125},
+        "2": {"x": 125, "y": 125},
+        "3": {"x": 125, "y": 125}
+      },
+      "snow": {
+        "1": {"x": 480, "y": 270}
+      },
+      "SmartBomb": {"x": 160, "y": 160}
+    },
+    "SHIELD_OFFSET": {
+      "InstaShield": {"x": 250, "y": 250},
+      "EngineDisrupt": {"x": 25, "y": 25},
+      "EnergyLeech": {"x": 155.5, "y": 155.5},
+      "AdvancedShield": {"x": 250, "y": 250},
+      "Barrier": {"x": 250, "y": 250},
+      "Fortress": {"x": 200, "y": 200},
+      "NanoRepair": {"x": 200, "y": 200},
+      "PrismaShield": {"x": 200, "y": 200},
+      "Singularity": {"x": 125, "y": 125},
+      "WeakShield": {"x": 250, "y": 250},
+      "RapidFire": {"x": 125, "y": 125},
+      "EmergencyRepair": {"x": 50, "y": 50},
+      "ShieldRecharge": {"x": 250, "y": 250},
+      "Turbo": {"x": 48, "y": 48},
+      "Invincibility": {"x": 250, "y": 250}
+    },
+    "HIT_OFFSET": {
+      "x": 0,
+      "y": -0
+    }
+  },
+  "animationTimes": {
+    "ASTEROID_BELTS": {
+      "1": 90000
+    },
+    "ENGINES": {
+      "0": 500,
+      "1": 2000,
+      "2": 500
+    },
+    "SMOKES": {
+      "1": 500,
+      "2": 300,
+      "trail": 2000,
+      "rageTrail": 2000
+    },
+    "shockwave": {
+      "0": 500
+    },
+    "EXPLOSIONS": {
+      "explosion": {
+        "0": 1500,
+        "1": 1200,
+        "2": 1500,
+        "3": 1500,
+        "4": 1500,
+        "5": 3000,
+        "7": 3000,
+        "8": 3000,
+        "9": 1500,
+        "6": 500
+      },
+      "disrupt": {
+        "0": 750
+      },
+      "laser": {
+        "0": 1000,
+        "1": 500,
+        "2": 500
+      },
+      "rocket": {
+        "0": 1000,
+        "1": 1500,
+        "2": 1000,
+        "3": 1000
+      },
+      "smartBomb": 1000,
+      "mine": {
+        "0": 500,
+        "2": 500,
+        "3": 500,
+        "4": 800
+      },
+      "firework": {
+        "1": 2500,
+        "2": 2500,
+        "3": 2500,
+        "4": 4000,
+        "5": 4000
+      },
+      "hyperspace": {
+        "1": 2000,
+        "2": 500,
+        "3": 500,
+        "4": 1000
+      },
+      "midas": {
+        "1": 1500,
+        "2": 1500,
+        "3": 1500,
+        "4": 2000
+      },
+      "shipEffect": {
+        "trail": 2000
+      },
+      "snow": {
+        "1": 5000
+      }
+    },
+    "SHIELDS": {
+      "advancedShield": 3000,
+      "protectionShield": 6000,
+      "instaShield": 3000,
+      "emp": 1500,
+      "flash": 500,
+      "leech": 2000,
+      "barrier": 400,
+      "shieldRecharge": 1500,
+      "Fortress": 2000,
+      "NanoRepair": 1100,
+      "EngineDisrupt": 1000,
+      "PrismaShield": 2500,
+      "Singularity": 1000,
+      "WeakShield": 2000,
+      "RapidFire": 2000,
+      "ParticleCharge": 2500,
+      "ParticleChargeElegant": 2500,
+      "LoveCharge": 1500,
+      "MidasTouch": 1500,
+      "EmergencyRepair": 1700,
+      "Turbo": 1000,
+      "DrawFire": 500,
+      "Fortification": 2000,
+      "invincibility": 3000,
+      "jumpShield": 1500,
+      "ProtectionShield": 1000
+    },
+    "EFFECTS": {
+      "slowEffect": 3000,
+      "levelUp": 3000
+    },
+    "MINES": {
+      "0": 5000,
+      "1": 2000,
+      "2": 2000,
+      "3": 1000,
+      "4": 600
+    },
+    "FIREWORKS": {
+      "1": 2500,
+      "2": 2500,
+      "3": 2500,
+      "4": 4000
+    },
+    "LENS_FLARES": {
+      "1": 1500,
+      "2": 1500,
+      "3": 1500
+    },
+    "COLLECTABLES": {
+      "1": 1200,
+      "2": 1200,
+      "3": 1200,
+      "4": 1200,
+      "5": 1200,
+      "6": 2500,
+      "7": 47,
+      "8": 47,
+      "9": 1200,
+      "10": 1200,
+      "11": 1000,
+      "26": 1200,
+      "13": 1200,
+      "14": 40,
+      "15": 1200,
+      "16": 1200,
+      "17": 1200,
+      "18": 1200,
+      "19": 1200,
+      "21": 2000,
+      "22": 2000,
+      "23": 2000,
+      "24": 1500,
+      "30": 1500,
+      "31": 1500,
+      "32": 1500,
+      "33": 1500,
+      "25": 1500
+    },
+    "BEAMS": {
+      "0": 1000
+    },
+    "REPAIR_BEAMS": {
+      "0": 1000,
+      "1": 1000,
+      "2": 1000
+    }
+  },
+  "sounds": {
+    "EXPLOSIONS": {
+      "explosion": {
+        "0": {"type": "explosions", "name": "explosion0"}
+      },
+      "disrupt": {
+        "0": {"type": "explosions", "name": "rocketExplosion0"}
+      },
+      "laser": {
+        "0": null,
+        "1": null,
+        "2": null
+      },
+      "rocket": {
+        "0": {"type": "explosions", "name": "rocketExplosion0"},
+        "1": {"type": "explosions", "name": "rocketExplosion1"}
+      },
+      "mine": {
+        "0": {"type": "mines", "name": "default"},
+        "2": {"type": "mines", "name": "default"},
+        "3": {"type": "mines", "name": "default"},
+        "4": {"type": "mines", "name": "default"}
+      }
+    }
+  },
+  "laser_data": {
+    "LASER_SALVO_POINTS": {
+      "gryphonReloaded": [
+        ["lc", "lct"],
+        ["lo", "ro"],
+        ["li", "ri", "lit", "rit"],
+        ["lo", "ro", "lc"]
+      ],
+      "infernal": [
+        ["l", "r"],
+        ["l", "r"]
+      ],
+      "scorcher": [
+        ["l", "r"],
+        ["l", "r"],
+        ["l", "r"],
+        ["l", "r"]
+      ],
+      "melter": [
+        ["li", "ri"],
+        ["lo", "ro"],
+        ["li", "ri"],
+        ["lo", "ro"]
+      ],
+      "vlight": [
+        ["lli", "lri", "c"],
+        ["ct", "llo", "lro"],
+        ["lli", "lri", "c"],
+        ["ct", "llo", "lro"]
+      ],
+      "diminisher": [
+        ["l", "r"],
+        ["lcb", "lcm"],
+        ["l", "r", "lct"],
+        ["lcb", "lcm", "lct"]
+      ],
+      "gryphonAlien": [
+        ["leftInner", "rightInner"],
+        ["centerRear"],
+        ["leftOutter", "rightOutter"],
+        ["center"]
+      ],
+      "gryphon": [
+        ["lib", "rib"],
+        ["lc"],
+        ["lo", "ro"],
+        ["lc", "lib", "rib"]
+      ],
+      "gryphonNewGen": [
+        ["lri", "lli"],
+        ["lc", "lli"],
+        ["lro", "llo"],
+        ["lc", "lrot", "llot"]
+      ],
+      "gryphonAlienPumpkin": [
+        ["leftOutter", "rightOutter"],
+        ["centerRear"]
+      ],
+      "viper": [
+        ["leftinner", "rightinner"],
+        ["leftoutter", "rightoutter"],
+        ["leftinner", "rightinner", "center"],
+        ["leftoutter", "rightoutter", "centertop"]
+      ],
+      "sentinel": [
+        ["li", "ri"],
+        ["lo", "ro"],
+        ["li", "ri", "c"],
+        ["lo", "ro", "c"]
+      ],
+      "sentinelNew": [
+        ["li", "ri"],
+        ["lo", "ro"],
+        ["li", "ri", "c"],
+        ["lo", "ro", "c"]
+      ],
+      "spectrum": [
+        ["left", "right"],
+        ["left", "right", "center"],
+        ["left", "right", "centertop"],
+        ["center", "centertop"]
+      ],
+      "spectrum64": [
+        ["left", "right"],
+        ["left", "right", "center"],
+        ["left", "right", "centertop"],
+        ["center", "centertop"]
+      ],
+      "spectrumv2": [
+        ["li", "ri"],
+        ["lo", "ro", "c"],
+        ["li", "ri", "lct"],
+        ["lc", "lct"]
+      ],
+      "sentinelv2": [
+        ["li", "ri"],
+        ["lo", "ro", "c"],
+        ["l", "r", "c"],
+        ["li", "ri", "l", "r"]
+      ],
+      "laserModule": [["left", "right"]],
+      "convoy": [["c"]],
+      "phoenix": [
+        ["ll", "lr"],
+        ["lc"]
+      ],
+      "phoenix64": [
+        ["ll", "lr"],
+        ["lc"],
+        ["ll", "lr"],
+        ["lc"]
+      ],
+      "0": [
+        ["ll", "lr"],
+        ["lc"],
+        ["ll", "lr"],
+        ["lc"]
+      ],
+      "streuner": [
+        ["c"],
+        ["c"]
+      ],
+      "streunerBoss": [
+        ["c"],
+        ["c"],
+        ["c"],
+        ["c"]
+      ],
+      "streunerAdvanced": [
+        ["leftinner", "rightinner"],
+        ["leftoutter", "rightoutter"],
+        ["leftinner", "rightinner"],
+        ["leftoutter", "rightoutter"]
+      ],
+      "vagrant": [
+        ["left", "right"],
+        ["left", "right"],
+        ["left", "right"]
+      ],
+      "hooligan": [
+        ["center"],
+        ["center"],
+        ["center"]
+      ],
+      "corsair": [
+        ["left", "right"],
+        ["center"],
+        ["left", "right", "center"]
+      ],
+      "outcast": [
+        ["leftinner", "rightinner"],
+        ["leftoutter", "rightoutter"]
+      ],
+      "convict": [
+        ["leftinner", "rightinner"],
+        ["center"],
+        ["leftoutter", "rightoutter"],
+        ["center"]
+      ],
+      "constructionBot": [
+        ["left", "right"],
+        ["centerbottom", "centertop"]
+      ],
+      "68": [
+        ["left", "right"],
+        ["center"],
+        ["left", "right"],
+        ["center"]
+      ],
+      "1": [
+        ["leftInner", "rightInner"],
+        ["leftOutter", "rightOutter"]
+      ],
+      "2": [
+        ["center", "left", "right"],
+        ["center", "leftOutter", "rightOutter"],
+        ["center", "leftOutterTop", "rightOutterTop"]
+      ],
+      "saboteur": [
+        ["lli", "lri"],
+        ["llo", "lro"]
+      ],
+      "battleray": [
+        ["lli", "lri"],
+        ["llo", "lro"],
+        ["lli", "lri"],
+        ["llo", "lro"]
+      ],
+      "27": [["l", "r"], ["l", "r"]],
+      "3": [["left","right"],["left","right"]],
+      "defcom": [["lo","ro"],["ct"],["li","ri"],["c"]],
+      "5": [["center"], ["left","right"], ["center", "centerTop"], ["left", "right", "center", "centerTop"]],
+      "6": [["li","ri"],["lo","ro"], ["li","ri"],["lo","ro"]],
+      "7": [["li","rii"],["li","ri"],["li","rii"],["li","ri"]],
+      "nostormo": [["lc", "lct"], ["lc", "l", "r"], ["l", "r", "lct"]],
+      "nstarhawk": [["lc", "lct"], ["lc", "l", "r"], ["l", "r", "lo", "ro"], ["l", "r", "lct"]],
+      "geirod": [["li","ri"],["center"],["leftoutter","rightoutter"],["li", "ri", "centertop"]],
+      "10": [["LeftRear","RightRear"],["CenterRear"],["LeftFront","RightFront"],["CenterFront"]],
+      "11": [
+        ["center"],
+        ["leftInner", "rightInner"],
+        ["leftOutter", "rightOutter"],
+        ["center", "leftInner", "rightInner"]
+      ],  
+      "solace": [["lc", "lo", "ro"],  ["lc", "lib", "rib"], ["lif", "rif"], ["lib", "rib", "lo", "ro"]],
+      "13": [["LeftRear","RightRear"],["CenterRear"],["LeftFrontOut","RightFrontOut"],["CenterFront"],["LeftRear","RightRear"],["CenterRear"],["LeftFrontIn","RightFrontIn"],["CenterFront"]],
+      "14": [["leftInner", "rightInner"], ["leftCenter", "rightCenter"], ["leftOutter", "rightOutter", "center"]],
+      "16": [["LeftRear","RightRear"],["CenterRear"],["LeftFrontOut","RightFrontOut"],["CenterMid"],["LeftRear","RightRear"],["CenterRear"],["LeftFrontIn","RightFrontIn"],["CenterFront"]],
+      "17": [["LeftFrontOuter","RightFrontOuter"],["CenterRear"],["LeftRearInner","RightRearInner"],["Standard"],["LeftRearOuter","RightRearOuter"]],
+      "18": [["center", "leftInner", "rightInner"], ["centerRear", "leftOutter", "rightOutter"], ["center", "leftInner", "rightInner", "leftOutter", "rightOutter"]],
+      "19": [["LeftRearInner","RightRearInner"],["CenterRear"],["LeftFrontOuter","RightFrontOuter"],["LeftRearInner","RightRearInner","CenterRear"]],
+      "20": [["CenterLeft", "CenterRight"]],
+      "9999": [["Center"]],
+      "21": [["LeftFrontInner","RightFrontInner"],["LeftFrontOuter","RightFrontOuter"]],
+      "22": [["LeftRearInner","RightRearInner"],["LeftRearOuter","RightRearOuter"],["LeftFrontInner","RightFrontInner"]],
+      "23": [["LeftRearInner","RightRearInner"],["LeftFrontInner","RightFrontInner"],["LeftRearOuter","RightRearOuter"]],
+      "24": [["li", "ri"], ["ro", "lo"],["li", "ri"], ["ro", "lo"]],
+      "26": [["l","r"], ["l","r"]],
+      "28": [["l", "r"], ["l", "r"], ["l", "r"]],
+      "29": [["RightFrontOuter","LeftFrontOuter"],["RightRearOuter","LeftRearOuter"]],
+      "30": [["CenterFront"]],
+      "31": [["LeftFrontOuter","RightFrontOuter"]],
+      "32": [["LeftFrontInner","RightFrontInner","CenterFront"]],
+      "33": [["CenterFront"],["LeftFrontInner","RightFrontInner"]],
+      "34": [["Center"]],
+      "35": [["CenterFront"]],
+      "36": [["CenterFront"],["LeftFrontInner","RightFrontInner"]],
+      "gryphonFaction": [
+        ["lc"],
+        ["lib", "rib"],
+        ["lt", "rt"],
+        ["lc", "lo", "ro"]
+      ],
+      "gryphonPirate": [
+        ["lc", "lcb"],
+        ["lib", "rib"],
+        ["lt", "rt"],
+        ["lcb", "lo", "ro"]
+      ],
+      "warden": [
+        ["c", "li", "ri"],
+        ["c", "lct", "rct"],
+        ["c", "lo", "ro"],
+        ["c", "lt", "rt"]
+      ],
+      "aegis": [
+        ["lc", "lli", "lri"],
+        ["lc", "lct"],
+        ["lc", "lr", "ll"],
+        ["lc", "llt", "lrt"]
+      ],
+      "38": [["CenterFront"],["LeftFrontInner","RightFrontInner"]],
+      "venom": [["c", "l", "r"], ["c", "li", "ri"], ["c", "lo", "ro"], ["c", "l", "r", "li", "ri"]],
+      "40": [
+        ["left", "right", "center"],
+        ["left", "right", "centertop"],
+        ["left", "right", "center"],
+        ["left", "right", "centertop"]
+      ],
+      "pal64": [
+        ["left", "right", "center"],
+        ["left", "right", "centertop"],
+        ["left", "right", "center"],
+        ["left", "right", "centertop"]
+      ],
+      "41": [["CenterFront"],["CenterRear"],["CenterRear","CenterFront"]],
+      "42": [["CenterRear"],["CenterFront","RightRearOuter","LeftRearOuter"],["RightRearOuter","LeftRearOuter"],["CenterFront"],["CenterFront","RightFrontOuter","LeftFrontOuter"],["RightFrontInner","LeftFrontInner"]],
+      "43": [["RightFrontInner","LeftFrontInner"],["CenterFront","RightRearOuter","LeftRearOuter"],["RightFrontInner","LeftFrontInner"],["CenterMiddle","RightRearOuter","LeftRearOuter"],["RightFrontInner","LeftFrontInner"],["CenterFront","RightFrontOuter","LeftFrontOuter"],["RightFrontInner","LeftFrontInner"],["CenterMiddle","RightRearOuter","LeftRearOuter"]]
+    }
+  },
+  "gameMsg": {
+    "msgFonts": {
+      "1": { "fontFamily": "roboto", "isBold": true, "size": "12px", "shadowC": "black", "shadowBlur": 10, "way": 1, "y": 20 },
+      "2": { "size": "bold 50px", "maxWidth": 500, "stroke": 6, "fontFamily": "eurostile", "shadowC": "#000000", "color": "#F3F1DD", "shadowBlur": 0, "way": 1, "y": 50 },
+      "3": {
+        "size": "bold 48px",
+        "shadowC": "#0000ff",
+        "shadowBlur": 10,
+        "way": 1,
+        "y": 250
+      },
+      "4": {
+        "size": "bold 30px",
+        "shadowC": "#000000",
+        "shadowBlur": 10,
+        "way": 1,
+        "y": 300
+      },
+      "5": {
+        "size": "bold 34px",
+        "shadowC": "#000000",
+        "shadowBlur": 10,
+        "way": 1,
+        "y": 300
+      }
+    }
+  },
+  "colors": {
+    "HP_COLOR": "#49BE40",
+    "SHD_COLOR": "#338FCC",
+    "STRUCTURE_BG": "#6D6D6D",
+    "COLOR_ENEMY": "#FF0000",
+    "COLOR_ALLY": "#7CFC00",
+    "COLOR_HERO": "#FFFFFF",
+    "COLOR_GROUP": "#FFD700",
+    "COLOR_ALLY_FACTION": "#0099ff",
+    "COLOR_HAVOC": "#FF0000",
+    "COLOR_HAUNTVOC": "#DAA520",
+    "COLOR_CREDVOC": "#db63e2",
+    "COLOR_HERCULES": "#328fcc"
+  },
+  "typography": {
+    "newrender": {
+      "droneSimple": {
+        "size": 14,
+        "font": "arial"
+      },
+      "shipSkill": {
+        "font": "Arial",
+        "size": 12
+      }
+    },
+    "oldrender": {
+      "droneSimple": {
+        "size": 12,
+        "font": "sans-serif"
+      },
+      "shipSkill": {
+        "font": "eurostile",
+        "size": 10
+      }
+    }
+  },
+  "defaults": {
+    "BOT_RADIUS": 100,
+    "RLAUNCHER_RADIUS": 500,
+    "BARRIER_RADIUS": 10,
+    "NICK_Y": 120,
+    "LOCKON_RING": 15,
+    "DRONE_DISTANCE": 100,
+    "DRONE_SIMPLE_Y": -5,
+    "DRONE_SIMPLE_MARGIN_X": 3,
+    "DRONE_SIMPLE_FONT": "12px sans-serif",
+    "SKILL_VISUAL_FONT": "bold 10px eurostile",
+    "USERNAME_FONT": "800 16px eurostile, Noto Color Emoji",
+    "TITLE_FONT": "normal 14px eurostile",
+    "TITLE_FONT_IMPORTANT": "bold 16px eurostile",
+    "COLLECTION_FONT": "bold 20px eurostile",
+    "SHIP_INFO_BORDER": 3,
+    "STROKE_STYLE_TACTICAL": "#FF0000",
+    "HIT_FW": "bold",
+    "HIT_FONT": "orbitron",
+    "QC_FONT": "eurostile",
+    "OWNZ_FONT": "eurostile"
+  },
+  "titleColors": {
+    "default": "#fefe00",
+    "silver": "#CCCCCC",
+    "bronze": "#CD7F32",
+    "red": "#FF0000",
+    "blue": "#3b5998",
+    "purple": "#9a03fc",
+    "darkgreen": "#1a6208",
+    "gold": "#fefe00"
+  },
+  "Portals": {
+    "0": {
+      "name": "portal_std",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0,
+      "jumpInterval": 500
+    },
+    "17": {
+      "name": "portal_pvp",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "18": {
+      "name": "portal_ggic",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "19": {
+      "name": "portal_ggfc",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "20": {
+      "name": "portal_hopper",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 1
+    },
+    "16": {
+      "name": "portal_bday",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "1": {
+      "name": "portal_zeta",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "2": {
+      "name": "portal_firefight",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "3": {
+      "name": "portal_gga",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "4": {
+      "name": "portal_ggb",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "5": {
+      "name": "portal_ggy",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "6": {
+      "name": "portal_ggd",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "7": {
+      "name": "portal_gge",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "8": {
+      "name": "portal_ggk",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "11": {
+      "name": "portal_ggv",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "12": {
+      "name": "portal_ggsigma",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "13": {
+      "name": "portal_tdm",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "14": {
+      "name": "portal_krono",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "9": {
+      "name": "portal_ggfl",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "10": {
+    "name": "portal_ggfr",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    }
+  },
+  "SETTINGS_ENUM": {
+    "GRAPHICS": 0,
+    "GAMEPLAY": 1,
+    "INTERFACE": 2,
+    "SOUND": 3,
+    "KEYBOARD": 4,
+    "GAMEPAD": 5,
+    "QUICKCHAT": 6,
+    "QC_SLOT_1": 0,
+    "QC_SLOT_2": 1,
+    "QC_SLOT_3": 2,
+    "QC_SLOT_4": 3,
+    "BG": 0,
+    "OBJECTS": 1,
+    "NEBULAS": 2,
+    "STARS": 3,
+    "EXPLOSIONS": 4,
+    "ENGINE": 5,
+    "QOS": 6,
+    "LANG": 7,
+    "LASER": 8,
+    "LASERFLASH": 9,
+    "ASTEROID_VISIBILITY": 10,
+    "BARRIER_Q": 11,
+    "OBJECT_SIZE_TO_SHIP": 12,
+    "CHAT_TRANSLATION": 13,
+    "PRO_MODE": 14,
+    "LASER_SPEED": 15,
+    "KILL_VFX": 16,
+    "UI_ANIM_SPEED": 17,
+    "LIGHTING": 18,
+    "AB_ATTACK": 0,
+    "DBL_ATTACK": 1,
+    "STICKY_ATTACK": 3,
+    "WIN11RL": 2,
+    "RGB_DISABLED": 4,
+    "GLOW_DISABLED": 5,
+    "SNOWY_OVERLAY": 7,
+    "SCROLL_CTRL": 8,
+    "USERNAMES": 0,
+    "HITS": 1,
+    "DRONES": 2,
+    "MINIMAP_BG": 3,
+    "HOVER": 4,
+    "WINDOW_BG": 5,
+    "EQ_DRAG": 6,
+    "HIDE_GAMECTRL": 7,
+    "ENABLE_TACTICS_MINI": 8,
+    "DRONES_OWN": 9,
+    "18PLUSFILTER": 10,
+    "NAMES_BORDER": 11,
+    "PRO_AUTO_TOGGLE": 12,
+    "PRO_IGNORE_KEYS": 13,
+    "AB_COLORFUL": 14,
+    "CHAT_MSG_REMOVE": 15,
+    "MINE_SHAKE": 16,
+    "CONTROLLER_SIMPLE": 17,
+    "GM_SOUNDS": 0,
+    "GM_ST": 1,
+    "GM_SOUNDS_VOL": 2,
+    "GM_ST_VOL": 3,
+    "LASER_VOL": 4,
+    "ROCKET_VOL": 5,
+    "EFFECT_VOL": 6,
+    "EXPLOSION_VOL": 7,
+    "PORTAL_VOL": 8,
+    "ROBOT_VOL": 9,
+    "SHIELD_VOL": 10,
+    "MISC_VOL": 11,
+    "UI_VOL": 12,
+    "KEYBINDINGS": {
+      "AB_1": 0,
+      "AB_2": 1,
+      "AB_3": 2,
+      "AB_4": 3,
+      "AB_5": 4,
+      "AB_6": 5,
+      "AB_7": 6,
+      "AB_8": 7,
+      "AB_9": 8,
+      "AB_10": 9,
+      "AB_11": 10,
+      "AB_12": 11,
+      "AB_13": 12,
+      "AB_14": 13,
+      "AB_15": 14,
+      "AB_16": 15,
+      "AB_17": 16,
+      "AB_18": 17,
+      "AB_19": 18,
+      "AB_20": 19,
+      "S_ISH": 20,
+      "S_SMB": 21,
+      "S_EMP": 22,
+      "S_CFG": 23,
+      "S_PORT": 24,
+      "S_AB_SB": 26,
+      "S_MISSILE_ATTACK": 25,
+      "SHOW_FPS": 27,
+      "LOGOUT": 28,
+      "S_SKILL": 29,
+      "PAL_REPAIR": 30,
+      "PAL_ACTIVATE": 31,
+      "PAL_GUARD": 32,
+      "PAL_P_REPAIR": 33,
+      "PAL_SACRIFICAL": 34,
+      "PAL_RAMPAGE": 35,
+      "TECH_PRECISION": 36,
+      "TECH_ROBOT": 37,
+      "TECH_BSHD": 38,
+      "TECH_LEECH": 39,
+      "TRIGGER_CLOAK": 40,
+      "LASER_ATTACK": 41,
+      "PRO_TOGGLE": 42,
+      "QC_CHAT": 43,
+      "QC_MSG_1": 44,
+      "QC_MSG_2": 45,
+      "QC_MSG_3": 46,
+      "QC_MSG_4": 47,
+      "GROUP_PING_SHORTCUT": 48,
+      "GROUP_FOLLOW_SHORTCUT": 49,
+      "CINEMATIC_MODE": 50,
+      "CONTROLLERS_MENU": 51
+    },
+    "GAMEPADBINDS": {
+      "AB_1": 0,
+      "AB_2": 1,
+      "AB_3": 2,
+      "AB_4": 3,
+      "AB_5": 4,
+      "AB_6": 5,
+      "AB_7": 6,
+      "AB_8": 7,
+      "AB_9": 8,
+      "AB_10": 9,
+      "AB_11": 10,
+      "AB_12": 11,
+      "AB_13": 12,
+      "AB_14": 13,
+      "AB_15": 14,
+      "AB_16": 15,
+      "AB_17": 16,
+      "AB_18": 17,
+      "AB_19": 18,
+      "AB_20": 19,
+      "S_ISH": 20,
+      "S_SMB": 21,
+      "S_EMP": 22,
+      "S_CFG": 23,
+      "S_PORT": 24,
+      "S_AB_UP": 26,
+      "S_AB_DOWN": 27,
+      "S_AB_RIGHT": 28,
+      "S_AB_LEFT": 29,
+      "MOV_JOYSTICK": 30,
+      "TARGET_JOYSTICK": 31,
+      "ACT_CURSOR": 32,
+      "MOV_CURSOR_JOYSTICK": 33,
+      "TOGGLE_ATTACK": 34,
+      "LOCK_ON": 35,
+      "TOGGLE_FPS": 36,
+      "PRESS_CURSOR": 37,
+      "SCROLL_EL_JOYSTICK": 38,
+      "ACTIVATE_ACTIONBAR_ITEM": 39,
+      "S_MISSILE_ATTACK": 25
+    }
+  },
+  "gameConfig": {
+    "showPortalAnim": true,
+    "showPortalBubble": false,
+    "slowdownForceField": true,
+    "slowdownEngineDisrupt": false,
+    "baseConstructRotatingDrone": true,
+    "baseCoreRobotCount": 4,
+    "moduleCoreRobotCount": 1,
+    "abPureCss": true,
+    "uiPureCss": true,
+    "uiDraggerPureCss": true,
+    "repairWindowIcons": false,
+    "outOfRangeEnabled": false,
+    "cssMapName": true,
+    "spacemapUseFaIcon": true,
+    "spacemapPrefix": "background",
+    "spacemapExtension": "jpg",
+    "showGgParts": true,
+    "disableGgEffect": true,
+    "shopShowDetail": false,
+    "shopSectionsGraphics": [1,2,3,4,5,6,7,8,9,10,11,14,20],
+    "useEqSimple": false,
+    "eqShowDetailGif": false,
+    "robotAnimatedArms": true,
+    "scaleInfoIcons": true,
+    "showShieldBarrier": true,
+    "allowLasersChange": true,
+    "collectablesAura": {
+      "13": "#1ae2fd",
+      "14": "#C0C0C0",
+      "15": "#E5E4E2",
+      "16": "#6e2d15",
+      "17": "#526916",
+      "18": "#eee32e",
+      "19": "#ee912e",
+      "10": "#1ae2fd",
+      "2": "#239e45",
+      "3": "#cb6c00",
+      "4": "#c93e03",
+      "5": "#2d4d81",
+      "6": "#c98730"
+    },
+    "animatedPortalJump": [0,1,2.7,11,12,13,14,2,16,17,18],
+    "specialJumpAnimation": [11,12,13,14],
+    "rotationalFlares": [],
+    "portalSyncFramesToSprites": false,
+    "modernInstaShieldAnimation": false,
+    "rotationalAsteroids": [],
+    "repairBeamsOn": true,
+    "slowEffectStatic": false,
+    "slowEffectStackIdle": false,
+    "slowEffectActiveNonRotating": false,
+    "slowEffectSyncToIdle": false,
+    "repairBotArmNoOffset": true, 
+    "rankSizes": {
+      "13": {"size": 20, "xRankMarginRings": 21, "xRankMargin": 23, "yRankMargin": 0, "ringsUseMarginY": false},
+      "14": {"size": 20, "xRankMarginRings": 21, "xRankMargin": 23, "yRankMargin": 0, "ringsUseMarginY": false},
+      "15": {"size": 20, "xRankMarginRings": 21, "xRankMargin": 23, "yRankMargin": 0, "ringsUseMarginY": false},
+      "16": {"size": 20, "xRankMarginRings": 21, "xRankMargin": 23, "yRankMargin": 0, "ringsUseMarginY": false},
+      "17": {"size": 32, "sizeY": 24, "xRankMarginRings": 24, "xRankMargin": 32, "yRankMargin": 0, "ringsUseMarginY": false},
+      "18": {"size": 32, "sizeY": 24, "xRankMarginRings": 24, "xRankMargin": 32, "yRankMargin": 0, "ringsUseMarginY": false},
+      "19": {"size": 32, "sizeY": 24, "xRankMarginRings": 24, "xRankMargin": 32, "yRankMargin": 0, "ringsUseMarginY": false},
+      "20": {"size": 32, "sizeY": 32, "xRankMarginRings": 24, "xRankMargin": 32, "yRankMargin": 2, "ringsUseMarginY": false}
+    },
+    "gTechFilterDisabled": true,
+    "enigmaKrelanumEffect": true,
+    "uiRequiresActive": false,
+    "vfxLegacyKey": false,
+    "portalSnowing": false,
+    "portalSnowDynamic": false,
+    "loopingEngines": [1],
+    "useDynamicSmoke": true,
+    "specialMapZetaParts": true,
+    "shockwaveOnKill": false,
+    "designsEnabled": true,
+    "gryphonNewGen": true,
+    "energyTransferLoopDelay": 5,
+    "energyTransferAlpha": 3,
+    "eneryTransferNoLoop": false,
+    "prismaSpecialBarrier": true,
+    "instaShieldFade": true,
+    "avatarEnabled": true,
+    "modernSpacemap": true,
+    "resizeFormations": true,
+    "defaultThemeKey": "hyperspace",
+    "utilizeNewMobileStyle": true,
+    "rotateDirectEnergy": true,
+    "rotateDisruptor": true,
+    "disruptorRepeat": 4,
+    "steamLayoutChanged": true,
+    "angledExplosions": {
+      "rlDetonation": [1]
+    },
+    "particleSmoke": 0,
+    "gatesCdnAssets": true,
+    "newMinimapIco": true,
+    "atlasUnique": true
+  }
+}

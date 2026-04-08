@@ -1,0 +1,958 @@
+{
+    "1": {
+        "14": {
+            "ores": {
+                "cobalt": 2500,
+                "nickel": 2500
+            },
+            "valutes": {
+                "credits": 10000000,
+                "uri": 5000
+            },
+            "craftTime": 300000
+        },
+        "9": {
+            "ores": {
+                "cobalt": 1000,
+                "nickel": 1000
+            },
+            "valutes": {
+                "credits": 5000000
+            },
+            "craftTime": 5000
+        },
+        "5": {
+            "ores": {
+                "cobalt": 1500,
+                "nickel": 1500
+            },
+            "valutes": {
+                "credits": 2500000,
+                "uri": 3000
+            },
+            "craftTime": 240000
+        },
+        "176": {
+            "ores": {
+                "cobalt": 7500,
+                "nickel": 7500,
+                "ree": 175,
+                "palladium": 5000,
+                "selenite": 3500
+            },
+            "valutes": {
+                "credits": 1000000000,
+                "uri": 2000000
+            },
+            "craftTime": 60000
+        },
+        "177": {
+            "ores": {
+                "cobalt": 7500,
+                "nickel": 7500,
+                "ree": 175,
+                "palladium": 5000,
+                "selenite": 3500
+            },
+            "valutes": {
+                "credits": 1000000000,
+                "uri": 2000000
+            },
+            "craftTime": 60000
+        },
+        "187": {
+            "ores": {
+                "jackolanterium": 10
+            },
+            "valutes": {
+                "uri": 250000
+            },
+            "craftTime": 60000
+        }
+    },
+    "2": {
+        "1": {
+            "ores": {
+                "cobalt": 1500,
+                "nickel": 1500,
+                "palladium": 1500,
+                "ree": 20,
+                "selenite": 500
+            },
+            "valutes": {
+                "credits": 250000000,
+                "uri": 100000
+            },
+            "craftTime": 5000
+        },
+        "10": {
+            "ores": {
+                "cobalt": 5000,
+                "nickel": 5000,
+                "palladium": 20000,
+                "ree": 100,
+                "selenite": 1000
+            },
+            "valutes": {
+                "credits": 250000000,
+                "uri": 1000000
+            },
+            "craftTime": 60000
+        },
+        "2": {
+            "ores": {
+                "cobalt": 100,
+                "nickel": 100,
+                "palladium": 100,
+                "ree": 100,
+                "selenite": 100
+            },
+            "valutes": {
+                "credits": 10000000,
+                "uri": 10000
+            },
+            "craftTime": 120000
+        },
+        "4": {
+            "ores": {
+                "cobalt": 900,
+                "nickel": 400
+            },
+            "valutes": {
+                "credits": 1000000
+            },
+            "craftTime": 300000
+        },
+        "5": {
+            "ores": {
+                "cobalt": 100,
+                "nickel": 100,
+                "palladium": 100,
+                "ree": 100,
+                "selenite": 100
+            },
+            "valutes": {
+                "credits": 10000000,
+                "uri": 10000
+            },
+            "craftTime": 120000
+        }
+    },
+    "3": {
+        "13": {
+            "ores": {
+                "jackolanterium": 14
+            },
+            "craftTime": 5000
+        },
+        "18": {
+            "ores": {
+                "crystal": 100
+            },
+            "craftTime": 5000
+        },
+        "5": {
+            "ores": {
+                "cobalt": 2500,
+                "nickel": 2500,
+                "palladium": 1500,
+                "ree": 50
+            },
+            "valutes": {
+                "credits": 100000000,
+                "uri": 100000
+            },
+            "craftTime": 600000
+        },
+        "6": {
+            "ores": {
+                "cobalt": 2500,
+                "nickel": 2500,
+                "palladium": 2000,
+                "selenite": 1000
+            },
+            "valutes": {
+                "credits": 250000000,
+                "uri": 100000
+            },
+            "craftTime": 900000
+        },
+        "7": {
+            "ores": {
+                "jackolanterium": 5
+            },
+            "valutes": {
+                "uri": 10000
+            },
+            "craftTime": 60000
+        }
+    },
+    "4": {
+        "3": {
+            "ores": {
+                "crystal": 500
+            },
+            "valutes": {
+                "uri": 100000
+            },
+            "craftTime": 5000
+        }
+    },
+    "5": {
+        "15": {
+            "ores": {
+                "crystal": 750
+            },
+            "valutes": {
+                "uri": 100000
+            },
+            "craftTime": 5000
+        },
+        "16": {
+            "ores": {
+                "crystal": 750
+            },
+            "valutes": {
+                "uri": 100000
+            },
+            "craftTime": 5000
+        },
+        "17": {
+            "ores": {
+                "crystal": 750
+            },
+            "valutes": {
+                "uri": 100000
+            },
+            "craftTime": 5000
+        },
+        "18": {
+            "ores": {
+                "crystal": 750
+            },
+            "valutes": {
+                "uri": 100000
+            },
+            "craftTime": 5000
+        },
+        "19": {
+            "ores": {
+                "crystal": 750
+            },
+            "valutes": {
+                "uri": 100000
+            },
+            "craftTime": 5000
+        },
+        "20": {
+            "ores": {
+                "crystal": 750
+            },
+            "valutes": {
+                "uri": 100000
+            },
+            "craftTime": 5000
+        },
+        "21": {
+            "ores": {
+                "crystal": 750
+            },
+            "valutes": {
+                "uri": 100000
+            },
+            "craftTime": 5000
+        },
+        "23": {
+            "ores": {
+                "crystal": 750
+            },
+            "valutes": {
+                "uri": 100000
+            },
+            "craftTime": 5000
+        }
+    },
+    "6": {
+        "5": {
+            "ores": {
+                "jackolanterium": 0.001
+            },
+            "valutes": {
+                "credits": 1000
+            },
+            "craftTime": 1
+        },
+        "6": {
+            "ores": {
+                "jackolanterium": 0.001
+            },
+            "valutes": {
+                "credits": 1000
+            },
+            "craftTime": 1
+        },
+        "7": {
+            "ores": {
+                "jackolanterium": 0.001
+            },
+            "valutes": {
+                "credits": 1000
+            },
+            "craftTime": 1
+        },
+        "9": {
+            "ores": {
+                "nickel": 5,
+                "palladium": 5
+            },
+            "valutes": {
+                "credits": 100000
+            },
+            "craftTime": 1
+        },
+        "10": {
+            "ores": {
+                "nickel": 2,
+                "cobalt": 2,
+                "ree": 0.1,
+                "palladium": 3
+            },
+            "valutes": {
+                "credits": 100000
+            },
+            "craftTime": 1
+        }
+    },
+    "9": {
+        "1": {
+            "ores": {
+                "jackolanterium": 0.001
+            },
+            "valutes": {
+                "credits": 1000
+            },
+            "craftTime": 1
+        }
+    },
+    "7": {
+        "8": {
+            "ores": {
+                "cobalt": 1,
+                "ree": 0.1
+            },
+            "valutes": {
+                "uri": 1
+            },
+            "craftTime": 1
+        },
+        "9": {
+            "ores": {
+                "cobalt": 1,
+                "ree": 0.1
+            },
+            "valutes": {
+                "uri": 1
+            },
+            "craftTime": 1
+        },
+        "11": {
+            "ores": {
+                "nickel": 1,
+                "selenite": 0.1
+            },
+            "valutes": {
+                "uri": 1
+            },
+            "craftTime": 1
+        },
+        "12": {
+            "ores": {
+                "nickel": 1,
+                "selenite": 0.1
+            },
+            "valutes": {
+                "uri": 1
+            },
+            "craftTime": 1
+        }
+    },
+    "11": {
+        "19": {
+            "ores": {
+                "prismium": 2
+            },
+            "valutes": {
+                "credits": 50000000
+            },
+            "craftTime": 5000
+        },        
+        "20": {
+            "ores": {
+                "prismium": 2
+            },
+            "valutes": {
+                "credits": 50000000
+            },
+            "craftTime": 5000
+        },        
+        "21": {
+            "ores": {
+                "prismium": 2
+            },
+            "valutes": {
+                "credits": 50000000
+            },
+            "craftTime": 5000
+        },        
+        "27": {
+            "ores": {
+                "prismium": 1
+            },
+            "valutes": {
+                "credits": 50000000
+            },
+            "craftTime": 5000
+        },        
+        "28": {
+            "ores": {
+                "prismium": 1
+            },
+            "valutes": {
+                "credits": 50000000
+            },
+            "craftTime": 5000
+        },        
+        "29": {
+            "ores": {
+                "prismium": 1
+            },
+            "valutes": {
+                "credits": 50000000
+            },
+            "craftTime": 5000
+        }        
+    },
+    "12": {
+        "1": {
+            "ores": {
+                "cobalt": 4000,
+                "nickel": 4000,
+                "palladium": 2500,
+                "ree": 50,
+                "selenite": 500
+            },
+            "valutes": {
+                "credits": 1000000000
+            },
+            "craftTime": 5000
+        },
+        "2": {
+            "ores": {
+                "cobalt": 4000,
+                "nickel": 4000,
+                "palladium": 2500,
+                "ree": 50,
+                "selenite": 500
+            },
+            "valutes": {
+                "credits": 1000000000
+            },
+            "craftTime": 5000
+        },
+        "3": {
+            "ores": {
+                "cobalt": 4000,
+                "nickel": 4000,
+                "palladium": 2500,
+                "ree": 50,
+                "selenite": 500
+            },
+            "valutes": {
+                "credits": 1000000000
+            },
+            "craftTime": 5000
+        },
+        "4": {
+            "ores": {
+                "cobalt": 4000,
+                "nickel": 4000,
+                "palladium": 2500,
+                "ree": 50,
+                "selenite": 500
+            },
+            "valutes": {
+                "credits": 1000000000
+            },
+            "craftTime": 5000
+        },
+        "5": {
+            "ores": {
+                "cobalt": 4000,
+                "nickel": 4000,
+                "palladium": 2500,
+                "ree": 50,
+                "selenite": 500
+            },
+            "valutes": {
+                "credits": 1000000000
+            },
+            "craftTime": 5000
+        },
+        "6": {
+            "ores": {
+                "cobalt": 4000,
+                "nickel": 4000,
+                "palladium": 2500,
+                "ree": 50,
+                "selenite": 500
+            },
+            "valutes": {
+                "credits": 1000000000
+            },
+            "craftTime": 5000
+        }
+    },
+    "13": {
+        "4": {
+            "valutes": {
+                "credits": 1000
+            },
+            "craftTime": 5000,
+            "mapsTo": {
+                "sectionId": 1,
+                "internalId": 5
+            },
+            "internalId": 4,
+            "sectionId": 13
+        },
+        "5": {
+            "valutes": {
+                "credits": 1000
+            },
+            "craftTime": 5000,
+            "mapsTo": {
+                "sectionId": 1,
+                "internalId": 9
+            },
+            "internalId": 5,
+            "sectionId": 13
+        },
+        "6": {
+            "valutes": {
+                "credits": 1000
+            },
+            "craftTime": 5000,
+            "mapsTo": {
+                "sectionId": 1,
+                "internalId": 14
+            },
+            "internalId": 6,
+            "sectionId": 13
+        },
+        "7": {
+            "ores": {
+                "prismium": 0.005
+            },
+            "craftTime": 1,
+            "mapsTo": {
+                "sectionId": 6,
+                "internalId": 7
+            },
+            "internalId": 7,
+            "sectionId": 13
+        },
+        "8": {
+            "ores": {
+                "prismium": 0.01
+            },
+            "craftTime": 1,
+            "mapsTo": {
+                "sectionId": 7,
+                "internalId": 12
+            },
+            "internalId": 8,
+            "sectionId": 13
+        },
+        "9": {
+            "ores": {
+                "prismium": 0.01
+            },
+            "craftTime": 1,
+            "mapsTo": {
+                "sectionId": 7,
+                "internalId": 11
+            },
+            "internalId": 9,
+            "sectionId": 13
+        },
+        "11": {
+            "ores": {
+                "prismium": 0.01
+            },
+            "craftTime": 1,
+            "mapsTo": {
+                "sectionId": 7,
+                "internalId": 9
+            },
+            "internalId": 11,
+            "sectionId": 13
+        },
+        "10": {
+            "ores": {
+                "prismium": 0.5
+            },
+            "craftTime": 1,
+            "mapsTo": {
+                "sectionId": 9,
+                "internalId": 1
+            },
+            "internalId": 10,
+            "sectionId": 13
+        }
+    },
+    "14": {
+        "2": {
+            "ores": {
+                "crystal": 250
+            },
+            "valutes": {
+                "uri": 500000
+            },
+            "craftTime": 5000
+        },
+        "186": {
+            "ores": {
+                "jackolanterium": 10
+            },
+            "valutes": {
+                "uri": 250000
+            },
+            "craftTime": 60000
+        }
+    },
+    "16": {
+        "10": {
+            "valutes": {
+                "uri": 50000
+            },
+            "craftTime": 5000,
+            "singleUse": true
+        }
+    },
+    "18": {
+        "1": {
+            "ores": {
+                "cobalt": 50,
+                "nickel": 50,
+                "palladium": 50,
+                "selenite": 5
+            },
+            "valutes": {
+                "uri": 2500
+            },
+            "craftTime": 5000
+        },
+        "3": {
+            "ores": {
+                "cobalt": 10,
+                "nickel": 10
+            },
+            "valutes": {
+                "credits": 100000
+            },
+            "craftTime": 5000
+        },
+        "4": {
+            "ores": {
+                "cobalt": 25,
+                "nickel": 25,
+                "palladium": 25
+            },
+            "valutes": {
+                "uri": 1000
+            },
+            "craftTime": 5000
+        },
+        "5": {
+            "ores": {
+                "cobalt": 25,
+                "nickel": 25,
+                "palladium": 25
+            },
+            "valutes": {
+                "uri": 1000
+            },
+            "craftTime": 5000
+        }
+    },
+    "scrapping": {
+        "1": {
+            "81": {
+                "ores": {
+                    "cobalt": 3000,
+                    "nickel": 3000,
+                    "palladium": 2000,
+                    "ree": 35,
+                    "selenite": 375
+                },
+                "prompt": true
+            },
+            "115": {
+                "ammo": {
+                    "6.5": 100000,
+                    "6.6": 100000
+                },
+                "ores": {
+                    "jackolanterium": 10
+                },
+                "prompt": true
+            },
+            "187": {
+                "ammo": {
+                    "6.5": 100000,
+                    "6.6": 100000
+                },
+                "ores": {
+                    "jackolanterium": 10
+                },
+                "prompt": true
+            },
+            "139": {
+                "ores": {
+                    "prismium": 100
+                },
+                "prompt": true
+            },
+            "180": {
+                "ammo": {
+                    "6.5": 300000
+                },
+                "prompt": true
+            }
+        },
+        "2": {
+            "1": {
+                "ores": {
+                    "cobalt": 375,
+                    "nickel": 375,
+                    "palladium": 375,
+                    "ree": 3,
+                    "selenite": 125
+                },
+                "prompt": true
+            },
+            "2": {
+                "ores": {
+                    "cobalt": 375,
+                    "nickel": 375,
+                    "palladium": 375,
+                    "ree": 3,
+                    "selenite": 125
+                },
+                "prompt": true
+            },
+            "5": {
+                "ores": {
+                    "cobalt": 375,
+                    "nickel": 375,
+                    "palladium": 375,
+                    "ree": 3,
+                    "selenite": 125
+                },
+                "prompt": true
+            },
+            "4": {
+                "ores": {
+                    "cobalt": 90,
+                    "nickel": 40
+                }
+            },
+            "3": {
+                "valutes": {
+                    "credits": 400000
+                }
+            },
+            "6": {
+                "valutes": {
+                    "credits": 250000
+                }
+            },
+            "7": {
+                "valutes": {
+                    "credits": 100000
+                }
+            },
+            "8": {
+                "valutes": {
+                    "credits": 7000000
+                }
+            },
+            "9": {
+                "valutes": {
+                    "uri": 700000
+                }
+            }
+        },
+        "3": {
+            "5": {
+                "ores": {
+                    "cobalt": 500,
+                    "nickel": 500,
+                    "palladium": 375,
+                    "ree": 18
+                },
+                "prompt": true
+            },
+            "6": {
+                "ores": {
+                    "cobalt": 500,
+                    "nickel": 500,
+                    "palladium": 400,
+                    "selenite": 250
+                },
+                "prompt": true
+            }
+        },
+        "4": {
+            "1": {
+                "valutes": {
+                    "credits": 250000
+                }
+            },
+            "2": {
+                "valutes": {
+                    "credits": 10000
+                }
+            },
+            "4": {
+                "valutes": {
+                    "credits": 100000
+                }
+            }
+        },
+        "5": {
+        "15": {
+            "ores": {
+                "crystal": 500
+            },
+            "prompt": true
+        },
+        "16": {
+            "ores": {
+                "crystal": 500
+            },
+            "prompt": true
+        },
+        "17": {
+            "ores": {
+                "crystal": 500
+            },
+            "prompt": true
+        },
+        "18": {
+            "ores": {
+                "crystal": 500
+            },
+            "prompt": true
+        },
+        "19": {
+            "ores": {
+                "crystal": 500
+            },
+            "prompt": true
+        },
+        "20": {
+            "ores": {
+                "crystal": 500
+            },
+            "prompt": true
+        },
+        "21": {
+            "ores": {
+                "crystal": 500
+            },
+            "prompt": true
+        },
+        "23": {
+            "ores": {
+                "crystal": 500
+            },
+            "prompt": true
+            }
+        },
+        "12": {
+            "1": {
+                "ores": {
+                    "cobalt": 400,
+                    "nickel": 400,
+                    "palladium": 250,
+                    "ree": 5,
+                    "selenite": 50
+                },
+                "prompt": true
+            },
+            "2": {
+                "ores": {
+                    "cobalt": 400,
+                    "nickel": 400,
+                    "palladium": 250,
+                    "ree": 5,
+                    "selenite": 50
+                },
+                "prompt": true
+            },
+            "3": {
+                "ores": {
+                    "cobalt": 400,
+                    "nickel": 400,
+                    "palladium": 250,
+                    "ree": 5,
+                    "selenite": 50
+                },
+                "prompt": true
+            },
+            "4": {
+                "ores": {
+                    "cobalt": 400,
+                    "nickel": 400,
+                    "palladium": 250,
+                    "ree": 5,
+                    "selenite": 50
+                },
+                "prompt": true
+            },
+            "5": {
+                "ores": {
+                    "cobalt": 400,
+                    "nickel": 400,
+                    "palladium": 250,
+                    "ree": 5,
+                    "selenite": 50
+                },
+                "prompt": true
+            },
+            "6": {
+                "ores": {
+                    "cobalt": 400,
+                    "nickel": 400,
+                    "palladium": 250,
+                    "ree": 5,
+                    "selenite": 50
+                },
+                "prompt": true
+            }
+        },
+        "14": {
+            "186": {
+                "ammo": {
+                    "6.5": 100000,
+                    "6.6": 100000
+                },
+                "ores": {
+                    "jackolanterium": 10
+                },
+                "prompt": true
+            }
+        }
+    }
+}

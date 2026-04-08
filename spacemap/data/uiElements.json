@@ -1,0 +1,2601 @@
+{
+    "ui": [{
+            "id": 0,
+            "name": "log",
+            "icon": "log",
+            "onOpenExpand": true,
+            "label": "log_label",
+            "hasComponent": true,
+            "resizeDragger": true,
+            "size": {
+                "minW": 405,
+                "minH": 291
+            },
+            "controller": {
+                "x": 0,
+                "y": 78,
+                "useDefPosition": true
+            },
+            "content": [],
+            "position": 4
+        },
+        {
+            "id": 1,
+            "position": 2,
+            "name": "userinfo",
+            "icon": "user",
+            "label": "user_label",
+            "mobileAlwaysFit": true,
+            "hasComponent": true,
+            "spaceForTicks": true,
+            "size": {
+                "minW": 256,
+                "minH": 132,
+                "maxW": 256,
+                "maxH": 132
+            },
+            "controller": {
+                "x": 0,
+                "y": 0,
+                "useDefPosition": true
+            },
+            "content": [{
+                    "name": "EP",
+                    "isBar": false,
+                    "color": "white",
+                    "icon": "xp",
+                    "popover": {
+                        "txtKey": "ep-ui",
+                        "keys": "EP"
+                    }
+                },
+                {
+                    "name": "CRED",
+                    "isBar": false,
+                    "color": "white",
+                    "icon": "credits",
+                    "popover": {
+                        "txtKey": "cred-ui",
+                        "keys": "CRED"
+                    }
+                },
+                {
+                    "name": "LVL",
+                    "isBar": false,
+                    "color": "white",
+                    "icon": "level",
+                    "popover": {
+                        "txtKey": "lvl-ui",
+                        "keys": "LVL"
+                    }
+                },
+                {
+                    "name": "URI",
+                    "isBar": false,
+                    "color": "white",
+                    "icon": "uritaium",
+                    "popover": {
+                        "txtKey": "uri-ui",
+                        "keys": "URI"
+                    }
+                },
+                {
+                    "name": "HON",
+                    "isBar": false,
+                    "color": "white",
+                    "icon": "hon",
+                    "popover": {
+                        "txtKey": "hon-ui",
+                        "keys": "HON"
+                    }
+                },
+                {
+                    "name": "JP",
+                    "isBar": false,
+                    "color": "white",
+                    "icon": "wallet",
+                    "popover": {
+                        "txtKey": "jp-ui",
+                        "keys": "JP"
+                    }
+                },
+                {
+                    "name": "KEY",
+                    "isBar": false,
+                    "color": "white",
+                    "icon": "key",
+                    "popover": {
+                        "txtKey": "key-ui",
+                        "keys": ["GKEY", "RKEY", "BKEY"]
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "position": 1,
+            "name": "shipinfo",
+            "icon": "ship",
+            "label": "ship_label",
+            "spaceForTicks": true,
+            "hasComponent": true,
+            "size": {
+                "minW": 256,
+                "minH": 132,
+                "maxW": 256,
+                "maxH": 132
+            },
+            "controller": {
+                "x": -20,
+                "y": 39,
+                "useDefPosition": true
+            },
+            "content": [{
+                    "name": "HP",
+                    "isBar": true,
+                    "colorLight": "#d3f2d1",
+                    "colorDark": "#66d05e",
+                    "color": "#49BE40",
+                    "icon": "hp",
+                    "popover": {
+                        "txtKey": "hp-ui",
+                        "keys": "HP"
+                    }
+                },
+                {
+                    "name": "SHD",
+                    "isBar": true,
+                    "color": "#338FCC",
+                    "colorLight": "#d1f0f2",
+                    "colorDark": "#5ecad0",
+                    "icon": "shd",
+                    "popover": {
+                        "txtKey": "shd-ui",
+                        "keys": "SHD"
+                    }
+                },
+                {
+                    "name": "CFG",
+                    "isBar": false,
+                    "color": "white",
+                    "icon": "config",
+                    "hasEvent": true,
+                    "popover": {
+                        "txtKey": "cfg-ui",
+                        "keys": "CFG"
+                    }
+                },
+                {
+                    "name": "SPEED",
+                    "isBar": false,
+                    "color": "white",
+                    "icon": "speed",
+                    "popover": {
+                        "popoverIgnoreFormat": true,
+                        "txtKey": "speed-ui",
+                        "keys": "SPEED"
+                    }
+                },
+                {
+                    "name": "CARGO",
+                    "isBar": true,
+                    "colorLight": "#d3f2d1",
+                    "colorDark": "#66d05e",
+                    "icon": "cargo",
+                    "popover": {
+                        "txtKey": "cargo-ui",
+                        "keys": "CARGO"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "position": 11,
+            "name": "competetive",
+            "icon": "scoreevent",
+            "label": "competetive_label",
+            "isOpen": false,
+            "spaceForTicks": true,
+            "onOpenExpand": true,
+            "hasComponent": true,
+            "minLvl": 15,
+            "size": {
+                "minW": 1025,
+                "minH": 625
+            },
+            "controller": {
+                "x": -20,
+                "y": 273,
+                "useDefPosition": true
+            },
+            "content": {
+                "modes": [
+                    {
+                        "id": 1,
+                        "type": "duel",
+                        "name": "duel",
+                        "img": "duel"
+                    },
+                    {
+                        "id": 2,
+                        "type": "duos",
+                        "name": "duos",
+                        "img": "duos"
+                    },
+                    {
+                        "id": 3,
+                        "type": "fteam",
+                        "name": "fullteam",
+                        "img": "fteam"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "position": 3,
+            "name": "spacemap",
+            "icon": "minimap",
+            "resizeEnabled": true,
+            "label": "minimap_label",
+            "hasComponent": true,
+            "size": {
+                "minW": 345,
+                "minH": 240
+            },
+            "controller": {
+                "x": 20,
+                "y": 39,
+                "useDefPosition": true
+            },
+            "aspectRatio": {
+                "x": 19,
+                "y": 13
+            },
+            "content": []
+        },
+        {
+            "id": 7,
+            "name": "fullscreen",
+            "icon": "fullscreen",
+            "label": "fullscreen_label",
+            "phoneState": false,
+            "isSeperateContr": true,
+            "controller": {
+                "bottomPop": true,
+                "right": 90,
+                "y": 0,
+                "useDefPosition": false
+            }
+        },
+        {
+            "id": 66,
+            "name": "radar",
+            "icon": "radar",
+            "label": "radar_label",
+            "phoneState": false,
+            "isSeperateContr": true,
+            "ignoreOld": true,
+            "controller": {
+                "bottomPop": true,
+                "right": 90,
+                "y": 0,
+                "useDefPosition": false
+            }
+        },
+        {
+            "id": 4,
+            "name": "settings",
+            "icon": "settings",
+            "label": "settings_label",
+            "hasComponent": true,
+            "isOpen": false,
+            "size": {
+                "minW": 350,
+                "minH": 300
+            },
+            "controller": {
+                "bottomPop": true,
+                "right": 130,
+                "y": 0,
+                "useDefPosition": false
+            },
+            "content": [
+                [{
+                    "name": "bg",
+                    "isCheck": false,
+                    "hint": "bg_sett_hint",
+                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
+                }, {
+                    "name": "space_object",
+                    "hint": "so_sett_hint",
+                    "isCheck": false,
+                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
+                }, {
+                    "name": "nebula",
+                    "hint": "nb_sett_hint",
+                    "isCheck": false,
+                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
+                }, {
+                    "name": "star",
+                    "hint": "st_sett_hint",
+                    "isCheck": false,
+                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "good", "val": "good"}, {"id": 3, "label": "high", "val": "high"}]
+                }, {
+                    "name": "explosion",
+                    "hint": "exp_sett_hint",
+                    "isCheck": false,
+                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "average", "val": "average"}, {"id": 3, "label": "good", "val": "good"}, {"id": 4, "label": "high", "val": "high"}]
+                }, {
+                    "name": "engine",
+                    "hint": "eng_sett_hint",
+                    "isCheck": false,
+                    "options": [{"id": 1, "label": "low", "val": "low"}, {"id": 2, "label": "average", "val": "average"}, {"id": 3, "label": "high", "val": "high"}]
+                }, {
+                    "name": "ships",
+                    "hint": "qos_sett_hint",
+                    "isCheck": false,
+                    "options": [{"id": 1, "label": "low", "val": "low"}, {"id": 2, "label": "high", "val": "high"}]
+                }, {
+                    "name": "language",
+                    "hint": "lang_sett_hint",
+                    "isCheck": false,
+                    "options": [{"id": 1, "label": "czech", "val": "cz", "noSteam": true}, {"id": 2, "label": "english", "val": "en"}, {"noSteam": true, "id": 3, "label": "german", "val": "de"}, {"noSteam": true, "id": 4, "label": "turkish", "val": "tr"}, {"noSteam": true, "id": 5, "label": "russian", "val": "ru"}, {"noSteam": true, "id": 6, "label": "spanish", "val": "es"}, {"noSteam": true, "id": 7, "label": "french", "val": "fr"}]
+                },
+                {
+                    "name": "lasers",
+                    "isCheck": false,
+                    "hint": "ll_sett_hint",
+                    "options": [{"id": 1, "label": "classic", "val": "classic"}, {"id": 2, "label": "invisible", "val": "invisible"}]
+                },
+                {
+                    "name": "laserflash",
+                    "isCheck": false,
+                    "hint": "lf_sett_hint",
+                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
+                },
+                {
+                    "name": "asteroid",
+                    "isCheck": false,
+                    "hint": "sab_sett_hint",
+                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
+                },
+                {
+                    "name": "barrier",
+                    "isCheck": false,
+                    "hint": "bq_sett_hint",
+                    "options": [{"id": 1, "label": "low", "val": "low"}, {"id": 2, "label": "high", "val": "high"}]
+                },
+                {
+                    "name": "dynamicsizes",
+                    "isCheck": false,
+                    "hint": "osts_sett_hint",
+                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
+                },
+                {
+                    "name": "translate_to",
+                    "isCheck": false,
+                    "hint": "tt_sett_hint",
+                    "premium": true,
+                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "english", "val": "en-us"}, {"id": 3, "label": "turkish", "val": "tr"}, {"id":4, "label": "spanish", "val": "es"}]
+                },
+                {
+                    "name": "sum_hits_delay",
+                    "isCheck": false,
+                    "hint": "sum_hits_delay_hint",
+                    "options": [{"id": 1, "label": "100ms", "val": 100}, {"id": 2, "label": "200ms", "val": 200}, {"id": 3, "label": "300ms", "val": 300}, {"id": 4, "label": "400ms", "val": 400}, {"id": 5, "label": "500ms", "val": 500}, {"id": 6, "label": "750ms", "val": 750}]
+                },
+                {
+                    "name": "laser_speed",
+                    "isCheck": false,
+                    "hint": "laser_speed_hint",
+                    "options": [{"id": 1, "label": "new", "val": 100}, {"id": 2, "label": "old", "val": 200}]
+                },
+                {
+                    "name": "kill_vfx",
+                    "isCheck": false,
+                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
+                },
+                {
+                    "name": "ui_anim_speed",
+                    "isCheck": false,
+                    "options": [{"id": 1, "label": "short", "val": 500}, {"id": 2, "label": "medium", "val": 1000}, {"id": 3, "label": "long", "val": 1500}]
+                },
+                {
+                    "name": "light_quality",
+                    "hint": "light_quality_sett_hint",
+                    "isCheck": false,
+                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "average", "val": "average"}, {"id": 3, "label": "good", "val": "good"}, {"id": 4, "label": "high", "val": "high"}]
+                }
+                ],
+                [{
+                    "name": "actionbar_attack",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "dblclick_attack",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "win11rl_off",
+                    "isCheck": true,
+                    "options": []
+                }, 
+                {
+                    "name": "actionbar_doublestop",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "rgb_disabled",
+                    "isCheck": true,
+                    "options": []
+                }, 
+                {
+                    "name": "glow_disabled",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "latency_mode",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "snowy_overlay",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "scroll_ctrl",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "cache_asset",
+                    "isCheck": true,
+                    "options": []
+                }
+                ],
+                [{
+                    "name": "show_nick",
+                    "isCheck": true,
+                    "options": []
+                }, {
+                    "name": "hit_display",
+                    "isCheck": true,
+                    "options": []
+                }, {
+                    "name": "drone_display",
+                    "isCheck": true,
+                    "options": []
+                }, {
+                    "name": "minimap_bg",
+                    "isCheck": true,
+                    "options": []
+                }, {
+                    "name": "ship_hover",
+                    "isCheck": true,
+                    "options": []
+                }, {
+                    "name": "window_bg",
+                    "isCheck": true,
+                    "options": []
+                }, {
+                    "name": "eq_drag",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "gamectrl_hide",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "enable_tactical_mini",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "drone_own_display",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "18+_filter",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "username_borders",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "pro_auto_toggle",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "pro_ignore_keys",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "ab_colorful",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "remove_chat_msgs",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "mine_shake",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "controller_simple",
+                    "isCheck": true,
+                    "options": []
+                }
+            ],
+                    [{
+                        "name": "game_sounds",
+                        "isCheck": false,
+                        "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
+                    }, {
+                        "name": "game_music",
+                        "isCheck": false,
+                        "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
+                    }, {
+                        "name": "game_sounds_volume",
+                        "isRangeSlider": true,
+                        "min": 0,
+                        "max": 100
+                    },
+                    {
+                        "name": "game_music_volume",
+                        "isRangeSlider": true,
+                        "min": 0,
+                        "max": 100
+                    },
+                    {
+                        "name": "laser_sounds",
+                        "isRangeSlider": true,
+                        "ownRow": true,
+                        "min": 0,
+                        "max": 100
+                    },
+                    {
+                        "name": "rocket_sounds",
+                        "isRangeSlider": true,
+                        "ownRow": true,
+                        "min": 0,
+                        "max": 100
+                    },
+                    {
+                        "name": "effect_sounds",
+                        "isRangeSlider": true,
+                        "ownRow": true,
+                        "min": 0,
+                        "max": 100
+                    },
+                    {
+                        "name": "explosion_sounds",
+                        "isRangeSlider": true,
+                        "ownRow": true,
+                        "min": 0,
+                        "max": 100
+                    },
+                    {
+                        "name": "portal_sounds",
+                        "isRangeSlider": true,
+                        "ownRow": true,
+                        "min": 0,
+                        "max": 100
+                    },
+                    {
+                        "name": "robot_sounds",
+                        "isRangeSlider": true,
+                        "ownRow": true,
+                        "min": 0,
+                        "max": 100
+                    },
+                    {
+                        "name": "shield_sounds",
+                        "isRangeSlider": true,
+                        "ownRow": true,
+                        "min": 0,
+                        "max": 100
+                    },
+                    {
+                        "name": "misc_sounds",
+                        "isRangeSlider": true,
+                        "ownRow": true,
+                        "min": 0,
+                        "max": 100
+                    },
+                    {
+                        "name": "ui_sounds",
+                        "isRangeSlider": true,
+                        "ownRow": true,
+                        "min": 0,
+                        "max": 100
+                    }
+                ],
+                [{
+                    "name": "action_button_1",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_2",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_3",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_4",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_5",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_6",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_7",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_8",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_9",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_10",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "action_button_11",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_12",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_13",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_14",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_15",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_16",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_17",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_18",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_19",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_20",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "ish_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "smb_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "emp_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "config_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "port_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "mattack_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "ab_submenu_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "fps_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "logout_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "skill_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "pal_rep_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "pal_ac_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "pal_g_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "pal_p_rep_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "pal_sacrifice",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "pal_rampage",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "tech_precision",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "tech_rbot",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "tech_bshd",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "tech_leech",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "trigger_cloak",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "laser_attack",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "pro_toggle",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "qc_toggle",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "qc_msg_1",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "qc_msg_2",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "qc_msg_3",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "qc_msg_4",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "group_ping",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "group_follow",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "cinematic_mode",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "controllers_menu",
+                    "isKeyInput": true
+                }
+                ],
+                [{
+                    "name": "action_button_1",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_2",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_3",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_4",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_5",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_6",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_7",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_8",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_9",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_10",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "action_button_11",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_12",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_13",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_14",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_15",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_16",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_17",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_18",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_19",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_20",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "ish_button",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "smb_button",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "emp_button",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "config_button",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "port_button",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "mattack_button",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "ab_up",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "ab_down",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "ab_right",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "ab_left",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "gamepad_movement",
+                    "isGamepadJoystick": true
+                },
+                {
+                    "name": "gamepad_targeting",
+                    "isGamepadJoystick": true
+                },
+                {
+                    "name": "gamepad_cursor",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "gamepad_move_cursor",
+                    "isGamepadJoystick": true
+                },
+                {
+                    "name": "toggle_attack",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "lock_on",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "toggle_fps",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "press_cursor",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "gamepad_scroll_el",
+                    "isGamepadJoystick": true
+                },
+                {
+                    "name": "activate_ab_item",
+                    "isGamepadInput": true
+                }
+                ],
+                [
+                    {
+                        "name": "qc_msg_slot_1",
+                        "isCheck": false,
+                        "options": [
+                            {"id": 1, "label": "qc_msg_1", "val": 1}, 
+                            {"id": 2, "label": "qc_msg_2", "val": 2}, 
+                            {"id": 3, "label": "qc_msg_3", "val": 3}, 
+                            {"id": 4, "label": "qc_msg_4", "val": 4}, 
+                            {"id": 5, "label": "qc_msg_5", "val": 5}, 
+                            {"id": 6, "label": "qc_msg_6", "val": 6}, 
+                            {"id": 7, "label": "qc_msg_7", "val": 7}, 
+                            {"id": 8, "label": "qc_msg_8", "val": 8},
+                            {"id": 9, "label": "qc_msg_9", "val": 9},
+                            {"id": 10, "label": "qc_msg_10", "val": 10}
+                        ]
+                    },
+                    {
+                        "name": "qc_msg_slot_2",
+                        "isCheck": false,
+                        "options": [
+                            {"id": 1, "label": "qc_msg_1", "val": 1}, 
+                            {"id": 2, "label": "qc_msg_2", "val": 2}, 
+                            {"id": 3, "label": "qc_msg_3", "val": 3}, 
+                            {"id": 4, "label": "qc_msg_4", "val": 4}, 
+                            {"id": 5, "label": "qc_msg_5", "val": 5}, 
+                            {"id": 6, "label": "qc_msg_6", "val": 6}, 
+                            {"id": 7, "label": "qc_msg_7", "val": 7}, 
+                            {"id": 8, "label": "qc_msg_8", "val": 8},
+                            {"id": 9, "label": "qc_msg_9", "val": 9},
+                            {"id": 10, "label": "qc_msg_10", "val": 10}
+                        ]
+                    },
+                    {
+                        "name": "qc_msg_slot_3",
+                        "isCheck": false,
+                        "options": [
+                            {"id": 1, "label": "qc_msg_1", "val": 1}, 
+                            {"id": 2, "label": "qc_msg_2", "val": 2}, 
+                            {"id": 3, "label": "qc_msg_3", "val": 3}, 
+                            {"id": 4, "label": "qc_msg_4", "val": 4}, 
+                            {"id": 5, "label": "qc_msg_5", "val": 5}, 
+                            {"id": 6, "label": "qc_msg_6", "val": 6}, 
+                            {"id": 7, "label": "qc_msg_7", "val": 7}, 
+                            {"id": 8, "label": "qc_msg_8", "val": 8},
+                            {"id": 9, "label": "qc_msg_9", "val": 9},
+                            {"id": 10, "label": "qc_msg_10", "val": 10}
+                        ]
+                    },
+                    {
+                        "name": "qc_msg_slot_4",
+                        "isCheck": false,
+                        "options": [
+                            {"id": 1, "label": "qc_msg_1", "val": 1}, 
+                            {"id": 2, "label": "qc_msg_2", "val": 2}, 
+                            {"id": 3, "label": "qc_msg_3", "val": 3}, 
+                            {"id": 4, "label": "qc_msg_4", "val": 4}, 
+                            {"id": 5, "label": "qc_msg_5", "val": 5}, 
+                            {"id": 6, "label": "qc_msg_6", "val": 6}, 
+                            {"id": 7, "label": "qc_msg_7", "val": 7}, 
+                            {"id": 8, "label": "qc_msg_8", "val": 8},
+                            {"id": 9, "label": "qc_msg_9", "val": 9},
+                            {"id": 10, "label": "qc_msg_10", "val": 10}
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "joystick_scale",
+                        "isCheck": false,
+                        "options": [{"id": 1, "label": "small", "val": 1}, {"id": 2, "label": "normal", "val": 2}, {"id": 3, "label": "big", "val": 3}]
+                    },
+                    {
+                        "name": "quickfire_scale",
+                        "isCheck": false,
+                        "options": [{"id": 1, "label": "small", "val": 1}, {"id": 2, "label": "normal", "val": 2}, {"id": 3, "label": "big", "val": 3}]
+                    },
+                    {
+                        "name": "radar_scale",
+                        "isCheck": false,
+                        "options": [{"id": 1, "label": "small", "val": 1}, {"id": 2, "label": "normal", "val": 2}, {"id": 3, "label": "big", "val": 3}]
+                    },
+                    {
+                        "name": "font_scale",
+                        "isCheck": false,
+                        "options": [{"id": 1, "label": "small", "val": 1}, {"id": 2, "label": "normal", "val": 2}, {"id": 3, "label": "big", "val": 3}]
+                    },
+                    {
+                        "name": "window_header_scale",
+                        "isCheck": false,
+                        "options": [{"id": 1, "label": "small", "val": 1}, {"id": 2, "label": "normal", "val": 2}, {"id": 3, "label": "big", "val": 3}]
+                    },
+                    {
+                        "name": "ui_button_scale",
+                        "isCheck": false,
+                        "options": [{"id": 1, "label": "small", "val": 1}, {"id": 2, "label": "normal", "val": 2}, {"id": 3, "label": "big", "val": 3}]
+                    },
+                    {
+                        "name": "game_zoom_level",
+                        "isRangeSlider": true,
+                        "min": 50,
+                        "ownRow": true,
+                        "max": 200
+                    }
+                ]
+            ]
+        },
+        {
+            "id": 5,
+            "position": 5,
+            "name": "spacemap_ov",
+            "icon": "spacemap",
+            "label": "spacemap_label",
+            "onOpenExpand": true,
+            "hasComponent": true,
+            "isOpen": false,
+            "controller": {
+                "x": -20,
+                "y": 117,
+                "useDefPosition": true
+            },
+            "content": {
+                "steam": {
+                    "mobileScale": {
+                        "1": 3
+                    },  
+                    "maxSectorId": 2,
+                    "maps": {
+                        "unavailable": [30,31,32],
+                        "level": [],
+                        "available": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,16,17,18,19,20,21,22,23,24,25,26,27,28,30]
+                    },
+                    "sectorSizes": [
+                        [710, 432],
+                        [710, 432],
+                        [710, 432]
+                    ],
+                    "lvlUnlocks": {
+                        "1": {
+                            "1": [1],
+                            "2": [5],
+                            "3": [9]
+                        },
+                        "2": {
+                            "1": [2],
+                            "2": [6],
+                            "3": [10]
+                        },
+                        "3": {
+                            "1": [3],
+                            "2": [7],
+                            "3": [11]
+                        },
+                        "6": {
+                            "1": [4],
+                            "2": [8],
+                            "3": [12]
+                        },
+                        "8": {
+                            "1": [7,8,11,12],
+                            "2": [11,12,7,8],
+                            "3": [7,8,11,12]
+                        },
+                        "10": {
+                            "1": [13,14,15],
+                            "2": [13,14,15],
+                            "3": [13,14,15]
+                        },
+                        "12": {
+                            "1": [16,17],
+                            "2": [16,21],
+                            "3": [16,25]
+                        },
+                        "13": {
+                            "1": [18,19],
+                            "2": [22,23],
+                            "3": [26,27]
+                        },
+                        "14": {
+                            "1": [20,29],
+                            "2": [24,29],
+                            "3": [28,29]
+                        },
+                        "16": {
+                            "1": [6,10],
+                            "2": [2,10],
+                            "3": [6,2]
+                        },
+                        "17": {
+                            "1": [21,25],
+                            "2": [17,25],
+                            "3": [17,21]
+                        },
+                        "18": {
+                            "1": [22,23,26,27],
+                            "2": [18,19,26,27],
+                            "3": [18,19,22,23]
+                        },
+                        "19": {
+                            "1": [24,28],
+                            "2": [20,28],
+                            "3": [20,24]
+                        },
+                        "20": {
+                            "1": [5,9],
+                            "2": [1,9],
+                            "3": [1,5]
+                        }
+                    },
+                    "mapTiers": {
+                        "0": [1,2,3,4,5,6,7,8,9,10,11,12],
+                        "1": [13,14,15,16],
+                        "2": [17,18,19,20,21,22,23,24,25,26,27,28,29]
+                    },
+                    "hasOverlay": [{"id": 1, "x": 128, "y": 167}],
+                    "mapVectors": [
+                        [
+                            [6,108],
+                            [98,108],
+                            [165,42],
+                            [165,172],
+                            [610,49],
+                            [514,108],
+                            [410,49],
+                            [410,168],
+                            [614,343],
+                            [529,287],
+                            [431,253],
+                            [432,313]
+                        ],
+                        [
+                            [83, 230],
+                            [244, 142],
+                            [244, 312],
+                            [464, 192]
+                        ],
+                        [
+                          [162,81],
+                          [83,19],
+                          [83,143],
+                          [4,81],
+                          [518,142],
+                          [438,80],
+                          [597,80],
+                          [518,19],
+                          [438,302],
+                          [518,364],
+                          [518,240],
+                          [597,302]  
+                        ]
+                    ]
+                },
+                "default": {
+                    "mobileScale": {
+                        "1": 3
+                    },  
+                    "maxSectorId": 2,
+                    "maps": {
+                        "unavailable": [30,31,32],
+                        "level": [],
+                        "available": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
+                    },
+                    "sectorSizes": [
+                        [710, 432],
+                        [710, 432],
+                        [710, 432]
+                    ],
+                    "lvlUnlocks": {
+                        "1": {
+                            "1": [1],
+                            "2": [5],
+                            "3": [9]
+                        },
+                        "2": {
+                            "1": [2],
+                            "2": [6],
+                            "3": [10]
+                        },
+                        "3": {
+                            "1": [3],
+                            "2": [7],
+                            "3": [11]
+                        },
+                        "6": {
+                            "1": [4],
+                            "2": [8],
+                            "3": [12]
+                        },
+                        "8": {
+                            "1": [7,8,11,12],
+                            "2": [11,12,7,8],
+                            "3": [7,8,11,12]
+                        },
+                        "10": {
+                            "1": [13,14,15],
+                            "2": [13,14,15],
+                            "3": [13,14,15]
+                        },
+                        "12": {
+                            "1": [16,17],
+                            "2": [16,21],
+                            "3": [16,25]
+                        },
+                        "13": {
+                            "1": [18,19],
+                            "2": [22,23],
+                            "3": [26,27]
+                        },
+                        "14": {
+                            "1": [20,29],
+                            "2": [24,29],
+                            "3": [28,29]
+                        },
+                        "16": {
+                            "1": [6,10],
+                            "2": [2,10],
+                            "3": [6,2]
+                        },
+                        "17": {
+                            "1": [21,25],
+                            "2": [17,25],
+                            "3": [17,21]
+                        },
+                        "18": {
+                            "1": [22,23,26,27],
+                            "2": [18,19,26,27],
+                            "3": [18,19,22,23]
+                        },
+                        "19": {
+                            "1": [24,28],
+                            "2": [20,28],
+                            "3": [20,24]
+                        },
+                        "20": {
+                            "1": [5,9],
+                            "2": [1,9],
+                            "3": [1,5]
+                        }
+                    },
+                    "mapTiers": {
+                        "0": [1,2,3,4,5,6,7,8,9,10,11,12],
+                        "1": [13,14,15,16],
+                        "2": [17,18,19,20,21,22,23,24,25,26,27,28,29]
+                    },
+                    "hasOverlay": [{"id": 1, "x": 128, "y": 167}, {"id": 2, "x": 244, "y": 107}],
+                    "mapVectors": [
+                        [
+                            [6, 42],
+                            [80, 108],
+                            [154, 42],
+                            [154, 172],
+                            [610, 49],
+                            [514, 108],
+                            [410, 49],
+                            [410, 168],
+                            [614, 343],
+                            [493, 319],
+                            [494, 230],
+                            [374, 294]
+                        ],
+                        [
+                            [83, 230],
+                            [244, 142],
+                            [244, 312],
+                            [464, 192]
+                        ],
+                        [
+                            [162, 81],
+                            [83, 19],
+                            [83, 143],
+                            [4, 81],
+                            [518, 142],
+                            [438, 80],
+                            [597, 80],
+                            [518, 19],
+                            [438, 302],
+                            [518, 364],
+                            [518, 240],
+                            [597, 302],
+                            [83, 291]
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": 6,
+            "position": 6,
+            "name": "chat",
+            "icon": "chat",
+            "label": "chat_label",
+            "hasComponent": true,
+            "size": {
+                "minW": 300,
+                "minH": 164
+            },
+            "controller": {
+                "x": 20,
+                "y": 117,
+                "useDefPosition": true
+            },
+            "content": []
+        },
+        {
+            "id": 10,
+            "position": 9,
+            "name": "equipment",
+            "icon": "equipment",
+            "label": "equipment_label",
+            "isOpen": false,
+            "onOpenExpand": true,
+            "hasComponent": true,
+            "size": {
+                "minW": 700,
+                "minH": 450
+            },
+            "controller": {
+                "x": 0,
+                "y": 156,
+                "useDefPosition": true
+            },
+            "content": []
+        },
+        {
+            "id": 25,
+            "position": 18,
+            "name": "trade",
+            "icon": "trade",
+            "onOpenExpand": true,
+            "label": "trade_label",
+            "minLvl": 5,
+            "isOpen": false,
+            "hasComponent": true,
+            "size": {
+                "minW": 700,
+                "minH": 450
+            },
+            "controller": {
+                "x": 0,
+                "y": 156,
+                "useDefPosition": true
+            },
+            "content": {
+                "cobalt": 0,
+                "nickel": 1,
+                "palladium": 2,
+                "ree": 3,
+                "selenite": 4,
+                "jackolanterium": 5,
+                "prismium": 6,
+                "crystal": 7
+            }
+        },
+        {
+            "id": 8,
+            "name": "help",
+            "icon": "help",
+            "label": "help_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "controller": {
+                "right": 50,
+                "y": 0,
+                "bottomPop": true,
+                "useDefPosition": false
+            },
+            "content": {
+                "items": [
+                    {"id": 1, "name": "wiki", "text": "wiki_help", "action": "wiki", "btnLabel": "go_to_wiki"},
+                    {"id": 2, "name": "settings", "text": "settings_help", "action": "settings", "btnLabel": "go_to_settings"},
+                    {"id": 3, "name": "equipment", "text": "equipment_help", "action": "eq", "btnLabel": "go_to_equipment"},
+                    {"id": 4, "name": "tutorial", "allowGoBack": false, "iconExt": ".webm", "visualKey": "tutorial_1", "text": "tutorial_1", "action": "ok", "btnLabel": "okay"},
+                    {"id": 5, "name": "tutorial", "allowGoBack": false, "iconExt": ".webm", "visualKey": "tutorial_2", "text": "tutorial_2", "action": "ok", "btnLabel": "okay"},
+                    {"id": 6, "name": "tutorial", "allowGoBack": false, "iconExt": ".webm", "visualKey": "tutorial_3", "text": "tutorial_3", "action": "ok", "btnLabel": "okay"},
+                    {"id": 7, "name": "tutorial", "allowGoBack": false, "iconExt": ".webm", "visualKey": "tutorial_4", "text": "tutorial_4", "action": "ok", "btnLabel": "okay"},
+                    {"id": 8, "name": "tutorial", "allowGoBack": false, "iconExt": ".webm", "visualKey": "tutorial_5", "text": "tutorial_5", "action": "ok", "btnLabel": "okay"},
+                    {"id": 9, "name": "tutorial", "allowGoBack": false, "iconExt": ".webm", "visualKey": "tutorial_6", "text": "tutorial_6", "action": "ok", "btnLabel": "okay"},
+                    {"id": 10, "name": "tutorial", "allowGoBack": false, "iconExt": ".webm", "visualKey": "tutorial_7", "text": "tutorial_7", "action": "ok", "btnLabel": "okay"},
+                    {"id": 11, "name": "tutorial", "allowGoBack": false, "iconExt": ".webm", "visualKey": "tutorial_8", "text": "tutorial_8", "action": "ok", "btnLabel": "okay"},
+                    {"id": 12, "name": "tutorial", "allowGoBack": false, "iconExt": ".webm", "visualKey": "tutorial_9", "text": "tutorial_9", "action": "ok", "btnLabel": "okay"},
+                    {"id": 13, "name": "tutorial", "allowGoBack": false, "iconExt": ".webm", "visualKey": "tutorial_10", "text": "tutorial_10", "action": "ok", "btnLabel": "okay"},
+                    {"id": 14, "name": "tutorial", "allowGoBack": false, "iconExt": ".webm", "visualKey": "tutorial_11", "text": "tutorial_11", "action": "ok", "btnLabel": "okay"},
+                    {"id": 15, "name": "tutorial", "allowGoBack": false, "iconExt": ".webm", "visualKey": "tutorial_12", "text": "tutorial_12", "action": "ok", "btnLabel": "okay"},
+                    {"id": 16, "name": "tutorial", "allowGoBack": false, "iconExt": ".webm", "visualKey": "tutorial_13", "text": "tutorial_13", "action": "ok", "btnLabel": "okay"},
+                    {"id": 17, "name": "tutorial", "allowGoBack": false, "iconExt": ".webm", "visualKey": "tutorial_14", "text": "tutorial_14", "action": "ok", "btnLabel": "okay"},
+                    {"id": 18, "name": "tutorial", "allowGoBack": false, "iconExt": ".webm", "visualKey": "tutorial_15", "text": "tutorial_15", "action": "ok", "btnLabel": "okay"}
+                ]
+            }
+        },
+        {
+            "id": 9,
+            "name": "logout",
+            "icon": "logout",
+            "label": "logout_label",
+            "class": "btn-logout",
+            "isOpen": false,
+            "hasComponent": true,
+            "size": {
+                "minW": 256,
+                "minH": 132
+            },
+            "controller": {
+                "right": 10,
+                "y": 0,
+                "useDefPosition": false,
+                "bottomPop": true
+            },
+            "content": []
+        },
+        {
+            "id": 11,
+            "position": 8,
+            "name": "shop",
+            "icon": "shop",
+            "label": "shop_label",
+            "isOpen": false,
+            "onOpenExpand": true,
+            "hasComponent": true,
+            "controller": {
+                "x": -20,
+                "y": 195,
+                "useDefPosition": true
+            },
+            "content": {
+                "sections": [
+                    {
+                        "id": 1,
+                        "label": "shop_ships",
+                        "icon": "iconship"
+                    },
+                    {
+                        "id": 2,
+                        "label": "shop_weapons",
+                        "icon": "iconship"
+                    },
+                    {
+                        "id": 3,
+                        "label": "shop_drones",
+                        "icon": "iconship"
+                    },
+                    {
+                        "id": 4,
+                        "label": "shop_generators",
+                        "icon": "iconship"
+                    },
+                    {
+                        "id": 5,
+                        "label": "shop_extras",
+                        "icon": "iconship"
+                    },
+                    {
+                        "id": 6,
+                        "label": "shop_ammo",
+                        "icon": "iconship"
+                    },
+                    {
+                        "id": 7,
+                        "label": "shop_missile",
+                        "icon": "iconship"
+                    },
+                    {
+                        "id": 8,
+                        "label": "shop_mine",
+                        "icon": "iconship"
+                    },
+                    {
+                        "id": 9,
+                        "label": "shop_special",
+                        "icon": "iconship"
+                    },
+                    {
+                        "id": 10,
+                        "label": "shop_extras_cpu",
+                        "icon": "iconship"
+                    },
+                    {
+                        "id": 11,
+                        "label": "shop_boosters",
+                        "icon": "iconship"
+                    },
+                    {
+                        "noSteam": true,
+                        "id": 14,
+                        "label": "shop_pal",
+                        "icon": ""
+                    }
+                ]
+            }
+        },
+        {
+            "id": 12,
+            "position": 7,
+            "name": "group",
+            "icon": "group",
+            "label": "group_label",
+            "isOpen": false,
+            "spaceForTicks": true,
+            "hasComponent": true,
+            "size": {
+                "minW": 256,
+                "minH": 132,
+                "maxW": 256,
+                "maxH": 132
+            },
+            "controller": {
+                "x": 20,
+                "y": 195,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 20,
+            "position": 17,
+            "name": "boosters",
+            "icon": "booster",
+            "minLvl": 10,
+            "minLvlBypass": "booster",
+            "label": "boosters_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "size": {
+                "minW": 150,
+                "minH": 132,
+                "maxW": 150,
+                "maxH": 132
+            },
+            "controller": {
+                "x": 20,
+                "y": 195,
+                "useDefPosition": true
+            },
+            "content": [
+            {
+                "name": "XP",
+                "isBar": true,
+                "color": "#49BE40",
+                "icon": "xp",
+                "popover": {
+                    "txtKey": "xp-ui",
+                    "keys": "VALUE"
+                }
+            },
+            {
+                "name": "HON",
+                "isBar": true,
+                "color": "#49BE40",
+                "icon": "hon",
+                "popover": {
+                    "txtKey": "hon-ui",
+                    "keys": "VALUE"
+                }
+            },
+            {
+                "name": "SHD",
+                "isBar": true,
+                "color": "#49BE40",
+                "icon": "shd",
+                "popover": {
+                    "txtKey": "shd-ui",
+                    "keys": "VALUE"
+                }
+            },
+            {
+                "name": "HP",
+                "isBar": true,
+                "color": "#49BE40",
+                "icon": "hp",
+                "popover": {
+                    "txtKey": "hp-ui",
+                    "keys": "VALUE"
+                }
+            },
+            {
+                "name": "DMG",
+                "isBar": true,
+                "color": "#49BE40",
+                "icon": "dmg",
+                "popover": {
+                    "txtKey": "dmg-ui",
+                    "keys": "VALUE"
+                }
+            },
+            {
+                "name": "SHDRECH",
+                "isBar": true,
+                "color": "#49BE40",
+                "icon": "shdrech",
+                "popover": {
+                    "txtKey": "shdrech-ui",
+                    "keys": "VALUE"
+                }
+            },
+            {
+                "name": "QUEST",
+                "isBar": true,
+                "color": "#49BE40",
+                "isFontIcon": true,
+                "icon": "exclamation",
+                "popover": {
+                    "txtKey": "quest-ui",
+                    "keys": "VALUE"
+                }
+            },
+            {
+                "name": "REP",
+                "isBar": true,
+                "color": "#49BE40",
+                "icon": "rep",
+                "popover": {
+                    "txtKey": "repair-ui",
+                    "keys": "VALUE"
+                }
+            },
+            {
+                "name": "BOX",
+                "isBar": true,
+                "color": "#49BE40",
+                "icon": "box",
+                "isFontIcon": true,
+                "popover": {
+                    "txtKey": "box-ui",
+                    "keys": "VALUE"
+                }
+            },
+            {
+                "name": "DROP",
+                "isBar": true,
+                "color": "#49BE40",
+                "icon": "dice",
+                "isFontIcon": true,
+                "popover": {
+                    "txtKey": "drop-ui",
+                    "keys": "VALUE"
+                }
+            },
+            {
+                "name": "CD",
+                "isBar": true,
+                "color": "#49BE40",
+                "icon": "cd",
+                "popover": {
+                    "txtKey": "cd-ui",
+                    "keys": "VALUE"
+                }
+            }
+        ]
+        },
+        {
+            "id": 13,
+            "position": 19,
+            "name": "commchannel",
+            "icon": "cli",
+            "label": "commchannel_label",
+            "isOpen": false,
+            "dynamic": true,
+            "hasComponent": true,
+            "content": {}
+        },
+        {
+            "id": 31,
+            "position": 31,
+            "name": "kickpanel",
+            "icon": "cli",
+            "label": "kickpanel_label",
+            "isOpen": false,
+            "dynamic": true,
+            "hasComponent": true,
+            "content": {}
+        },
+        {
+            "id": 13,
+            "position": 20,
+            "onOpenExpand": true,
+            "name": "assembly",
+            "icon": "assembly",
+            "label": "assembly_label",
+            "isOpen": false,
+            "adminOnly": false,
+            "hasComponent": true,
+            "controller": {
+                "x": 20,
+                "y": 273,
+                "useDefPosition": true
+            },
+            "content": {
+                "bonus": {
+                },
+                "valute": {
+                }
+            }
+        },
+        {
+            "id": 13,
+            "position": 21,
+            "name": "contacts",
+            "icon": "contacts",
+            "label": "contacts_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "controller": {
+                "x": 20,
+                "y": 273,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 13,
+            "position": 22,
+            "name": "clanstation",
+            "icon": "cbs",
+            "label": "clanstation_label",
+            "isOpen": false,
+            "dynamic": true,
+            "hasComponent": true,
+            "content": {
+                "template": "userscript.html",
+                "hash": "dhdgffkkebhmkfjojejmpbldmpobfkfo"
+            }
+        },
+        {
+            "id": 14,
+            "position": 24,
+            "name": "pal",
+            "icon": "pet",
+            "label": "pal_label",
+            "isOpen": false,
+            "noSteam": true,
+            "hasComponent": true,
+            "controller": {
+                "x": 20,
+                "y": 273,
+                "useDefPosition": true
+            },
+            "content": {
+                "levels": {
+                    "std": {
+                        "1": 10000,
+                        "2": 30000,
+                        "3": 70000,
+                        "4": 150000,
+                        "5": 470000,
+                        "6": 1430000,
+                        "7": 3158000,
+                        "8": 7253000,
+                        "9": 15253000,
+                        "10": 32829000,
+                        "11": 59829000,
+                        "12": 109829000,
+                        "13": 184829000,
+                        "14": 284829000,
+                        "15": 434829000
+                    },
+                    "pvp": {
+                        "1": 48,
+                        "2": 144,
+                        "3": 288,
+                        "4": 480,
+                        "5": 720,
+                        "6": 1008,
+                        "7": 1344,
+                        "8": 1728,
+                        "9": 2160,
+                        "10": 2640,
+                        "11": 3168,
+                        "12": 3744,
+                        "13": 4368,
+                        "14": 5040,
+                        "15": 6000
+                    },
+                    "pve": {
+                        "1": 100,
+                        "2": 300,
+                        "3": 600,
+                        "4": 1100,
+                        "5": 1700,
+                        "6": 2400,
+                        "7": 3200,
+                        "8": 4200,
+                        "9": 6200,
+                        "10": 9500,
+                        "11": 13000,
+                        "12": 17000,
+                        "13": 22000,
+                        "14": 30000,
+                        "15": 40000
+                    }
+                }
+            }
+        },
+        {
+            "id": 15,
+            "position": 25,
+            "name": "welcome",
+            "icon": "help",
+            "label": "welcome_label",
+            "isOpen": true,
+            "hasComponent": true,
+            "dynamic": true,
+            "content": {}
+        },
+        {
+            "id": 15,
+            "position": 26,
+            "name": "worldboss",
+            "icon": "worldBoss",
+            "label": "worldboss_label",
+            "isOpen": true,
+            "hasComponent": true,
+            "dynamic": true,
+            "controller": {
+                "x": -20,
+                "y": 273,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 66,
+            "position": 38,
+            "name": "multibank",
+            "icon": "multibank",
+            "label": "multibank_label",
+            "isOpen": true,
+            "hasComponent": true,
+            "dynamic": false,
+            "noBrowser": true,
+            "size": {
+                "minW": 550,
+                "minH": 260
+            },
+            "controller": {
+                "x": -20,
+                "y": 273,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 27,
+            "position": 27,
+            "name": "perfboard",
+            "icon": "perfboard",
+            "label": "perfboard_label",
+            "isOpen": false,
+            "dynamic": true,
+            "hasComponent": true,
+            "size": {
+                "minW": 700,
+                "minH": 450
+            },
+            "controller": {
+                "x": 0,
+                "y": 156,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 28,
+            "position": 28,
+            "name": "jpa_overview",
+            "icon": "jpa",
+            "label": "jpa_overview_label",
+            "isOpen": false,
+            "dynamic": true,
+            "hasComponent": true,
+            "size": {
+                "minW": 700,
+                "minH": 450
+            },
+            "controller": {
+                "x": 0,
+                "y": 156,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 29,
+            "position": 29,
+            "name": "jpa_perf",
+            "icon": "jpa_perf",
+            "label": "jpa_perf_label",
+            "isOpen": false,
+            "dynamic": true,
+            "hasComponent": true,
+            "size": {
+                "minW": 700,
+                "minH": 450
+            },
+            "controller": {
+                "x": 0,
+                "y": 156,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 30,
+            "position": 30,
+            "name": "jpa_manager",
+            "icon": "jpa_perf",
+            "label": "jpa_manager_label",
+            "isOpen": false,
+            "dynamic": true,
+            "hasComponent": true,
+            "size": {
+                "minW": 700,
+                "minH": 450
+            },
+            "controller": {
+                "x": 0,
+                "y": 156,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 15,
+            "position": 23,
+            "name": "admin",
+            "icon": "log",
+            "label": "admin_label",
+            "isOpen": false,
+            "adminOnly": true,
+            "hasComponent": true,
+            "controller": {
+                "x": 20,
+                "y": 273,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 14,
+            "position": 10,
+            "name": "arena",
+            "icon": "traininggrounds",
+            "label": "arena_label",
+            "spaceForTicks": true,
+            "minLvl": 15,
+            "isOpen": false,
+            "hasComponent": true,
+            "size": {
+                "minW": 400,
+                "minH": 400
+            },
+            "controller": {
+                "x": 0,
+                "y": 234,
+                "useDefPosition": true
+            },
+            "content": {
+                "mutators": {
+                    
+                }
+            }
+        },
+        {
+            "id": 16,
+            "position": 12,
+            "name": "pilotsheet",
+            "icon": "pvp3_summer",
+            "label": "pilotsheet_label",
+            "minLvl": 10,
+            "isOpen": false,
+            "onOpenExpand": true,
+            "hasComponent": true,
+            "size": {
+                "minW": 1025,
+                "minH": 425
+            },
+            "controller": {
+                "x": -20,
+                "y": 273,
+                "useDefPosition": true
+            },
+            "content": {
+                "section0": {
+                    "id": 0,
+                    "skills": [
+                        [
+                            {"id": 0, "part": "I", "useModern": true, "lvl": 0, "name": "hp_pp_01", "maxPoints": 2, "coef": false, "lvlData": {"1": 5000, "2": 10000}},
+                            {"id": 1, "useModern": true, "lvl": 0, "name": "rep_pp_01", "maxPoints": 5, "lvlData": {"1": 5, "2": 10, "3": 15, "4": 20, "5": 25}},
+                            {"id": 2, "useModern": true, "lvl": 0, "name": "shd_pp_01", "maxPoints": 5, "lvlData": {"1": 5, "2": 10, "3": 15, "4": 20, "5": 25}}
+                        ],
+                        [
+                            {"id": 3, "lvl": 0, "useModern": true, "name": "xp_pp_01", "maxPoints": 5, "lvlData": {"1": 4, "2": 8, "3": 12, "4": 16, "5": 20}}
+                        ],
+                        [
+                            {"id": 4, "part": "I", "useModern": true, "lvl": 0, "name": "minedmg_pp_01", "maxPoints": 2, "lvlData": {"1": 7, "2": 14}},
+                            {"id": 5,  "useModern": true, "lvl": 0, "name": "minerange_pp_01", "maxPoints": 5, "lvlData": {"1": 4, "2": 8, "3": 12, "4": 16, "5": 20}},
+                            {"id": 6,  "useModern": true, "lvl": 0, "name": "missileacc_pp_01", "maxPoints": 5, "lvlData": {"1": 1, "2": 2, "3": 3, "4": 4, "5": 5}}
+                        ]
+                    ]
+                },
+                "section1": {
+                    "requires": [{"sId": 0, "minPoints": 5}],
+                    "id": 1,
+                    "skills": [
+                        [
+                            {"id": 0, "part": "I", "useModern": true, "lvl": 0, "name": "ev_pp_01", "maxPoints": 2, "lvlData": {"1": 2, "2": 4}},
+                            {"id": 1, "part": "II", "useModern": true, "lvl": 0, "name": "hp_pp_02", "requires": [{"sId": 0, "id": 0}], "maxPoints": 3, "coef": false, "lvlData": {"1": 15000, "2": 20000, "3": 40000}}
+                        ],
+                        [
+                            {"id": 2, "part": "I", "useModern": true, "lvl": 0, "name": "uri_pp_01", "maxPoints": 2, "lvlData": {"1": 2, "2": 4}},
+                            {"id": 3, "useModern": true, "lvl": 0, "name": "cred_pp_01", "maxPoints": 5, "lvlData": {"1": 4, "2": 8, "3": 12, "4": 16, "5": 20}}
+                        ],
+                        [
+                            {"id": 4, "part": "I", "useModern": true, "lvl": 0, "name": "pvp_pp_01", "maxPoints": 2, "lvlData": {"1": 2, "2": 4}},
+                            {"id": 5, "useModern": true, "lvl": 0, "name": "missdmg_pp_01", "maxPoints": 5, "steamLvlData": {"1": 2, "2": 6, "3": 10, "4": 14, "5": 20}, "lvlData": {"1": 2, "2": 4, "3": 6, "4": 8, "5": 10}},
+                            {"id": 6, "useModern": true, "lvl": 0, "name": "npcdmg_pp_01", "maxPoints": 5, "lvlData": {"1": 2, "2": 4, "3": 8, "4": 16, "5": 25}}
+                        ]
+                    ]
+                },
+                "section2": {
+                    "requires": [{"sId": 0, "minPoints": 5}, {"sId": 1, "minPoints": 5}],
+                    "id": 2,
+                    "skills": [
+                        [
+                            {"id": 0, "useModern": true, "lvl": 0, "name": "abs_pp_01", "maxPoints": 5, "lvlData": {"1": 2, "2": 4, "3": 6, "4": 8, "5": 12}},
+                            {"id": 1, "part": "II", "useModern": true, "lvl": 0, "name": "ev_pp_02", "requires": [{"sId": 1, "id": 0}], "maxPoints": 3, "lvlData": {"1": 4, "2": 6, "3": 8}}
+                        ],
+                        [
+                            {"id": 2, "part": "II", "useModern": true, "lvl": 0, "name": "uri_pp_02", "requires": [{"sId": 1, "id": 2}], "maxPoints": 3, "lvlData": {"1": 2, "2": 4, "3": 6}}
+                        ],
+                        [
+                            {"id": 3, "part": "II", "useModern": true, "lvl": 0, "name": "minedmg_pp_02", "requires": [{"sId": 0, "id": 4}], "maxPoints": 3, "lvlData": {"1": 7, "2": 14, "3": 21}},
+                            {"id": 4, "useModern": true, "lvl": 0, "name": "acc_pp_01", "maxPoints": 5, "lvlData": {"1": 5, "2": 10, "3": 15, "4": 20, "5": 25}},
+                            {"id": 5, "part": "II", "useModern": true, "lvl": 0, "name": "pvp_pp_02", "requires": [{"sId": 1, "id": 4}], "maxPoints": 3, "lvlData": {"1": 4, "2": 8, "3": 12}}
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": 17,
+            "position": 13,
+            "name": "clan",
+            "onOpenExpand": true,
+            "icon": "clanvisibility",
+            "label": "clan_label",
+            "minLvl": 5,
+            "isOpen": false,
+            "hasComponent": true,
+            "size": {
+                "minW": 1025,
+                "minH": 425
+            },
+            "controller": {
+                "x": -20,
+                "y": 273,
+                "useDefPosition": true
+            },
+            "content": {
+                "nav": [
+                    {"id": 1, "label": "info", "memberOnly": true},
+                    {"id": 2, "label": "members", "memberOnly": true},
+                    {"id": 10, "label": "actions", "memberOnly": true},
+                    {"id": 3, "label": "balance", "memberOnly": true},
+                    {"id": 4, "label": "diplomacy", "memberOnly": true},
+                    {"id": 14, "label": "battlestats", "memberOnly": true},
+                    {"id": 8, "label": "upgrades", "memberOnly": true},
+                    {"id": 9, "label": "shop_help_title", "memberOnly": true},
+                    {"id": 11, "label": "clan_ops", "memberOnly": true, "reqPerm": ["clanops"], "buildingTypeReq": ["hq", "clan_op_hub"]},
+                    {"id": 12, "label": "clan_building", "memberOnly": true, "reqPerm": ["clanbuildz"]},
+                    {"id": 5, "label": "company", "memberOnly": false},
+                    {"id": 6, "label": "join", "singleOnly": true},
+                    {"id": 7, "label": "create", "singleOnly": true}
+                ],
+                "factions": [
+                    {"id": 1, "label": "mmo"},
+                    {"id": 2, "label": "eic"},
+                    {"id": 3, "label": "vru"}
+                ],
+                "possibleClanUpgrades": [
+                    {"id": 1, "type": "ep", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                        "1": {"uri": 0, "credits": 1000000},
+                        "2": {"uri": 0, "credits": 2000000},
+                        "3": {"uri": 0, "credits": 4000000},
+                        "4": {"uri": 0, "credits": 6000000},
+                        "5": {"uri": 0, "credits": 10000000},
+                        "6": {"uri": 50000, "credits": 10000000},
+                        "7": {"uri": 55000, "credits": 12000000},
+                        "8": {"uri": 62500, "credits": 14000000},
+                        "9": {"uri": 70000, "credits": 16000000},
+                        "10": {"uri": 80000, "credits": 20000000},
+                        "11": {"uri": 100000, "credits": 40000000},
+                        "12": {"uri": 120000, "credits": 60000000},
+                        "13": {"uri": 140000, "credits": 80000000},
+                        "14": {"uri": 160000, "credits": 100000000},
+                        "15": {"uri": 200000, "credits": 140000000},
+                        "16": {"uri": 250000, "credits": 180000000},
+                        "17": {"uri": 300000, "credits": 220000000},
+                        "18": {"uri": 350000, "credits": 260000000},
+                        "19": {"uri": 400000, "credits": 300000000},
+                        "20": {"uri": 500000, "credits": 400000000}
+                    }},
+                    {"id": 2, "type": "hon", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                        "1": {"uri": 0, "credits": 1000000},
+                        "2": {"uri": 0, "credits": 2000000},
+                        "3": {"uri": 0, "credits": 4000000},
+                        "4": {"uri": 0, "credits": 6000000},
+                        "5": {"uri": 0, "credits": 10000000},
+                        "6": {"uri": 50000, "credits": 10000000},
+                        "7": {"uri": 55000, "credits": 12000000},
+                        "8": {"uri": 62500, "credits": 14000000},
+                        "9": {"uri": 70000, "credits": 16000000},
+                        "10": {"uri": 80000, "credits": 20000000},
+                        "11": {"uri": 100000, "credits": 40000000},
+                        "12": {"uri": 120000, "credits": 60000000},
+                        "13": {"uri": 140000, "credits": 80000000},
+                        "14": {"uri": 160000, "credits": 100000000},
+                        "15": {"uri": 200000, "credits": 140000000},
+                        "16": {"uri": 250000, "credits": 180000000},
+                        "17": {"uri": 300000, "credits": 220000000},
+                        "18": {"uri": 350000, "credits": 260000000},
+                        "19": {"uri": 400000, "credits": 300000000},
+                        "20": {"uri": 500000, "credits": 400000000}
+                    }},
+                    {"id": 3, "type": "booster", "maxLvl": 10, "bonusPerLvl": 0.1, "costs": {
+                        "1": {"uri": 100000, "credits": 40000000},
+                        "2": {"uri": 120000, "credits": 60000000},
+                        "3": {"uri": 140000, "credits": 80000000},
+                        "4": {"uri": 160000, "credits": 100000000},
+                        "5": {"uri": 200000, "credits": 140000000},
+                        "6": {"uri": 250000, "credits": 180000000},
+                        "7": {"uri": 300000, "credits": 220000000},
+                        "8": {"uri": 350000, "credits": 260000000},
+                        "9": {"uri": 400000, "credits": 300000000},
+                        "10": {"uri": 500000, "credits": 400000000}
+                    }},
+                    {"id": 4, "type": "module", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                        "1": {"uri": 0, "credits": 1000000},
+                        "2": {"uri": 0, "credits": 2000000},
+                        "3": {"uri": 0, "credits": 4000000},
+                        "4": {"uri": 0, "credits": 6000000},
+                        "5": {"uri": 0, "credits": 10000000},
+                        "6": {"uri": 50000, "credits": 10000000},
+                        "7": {"uri": 55000, "credits": 12000000},
+                        "8": {"uri": 62500, "credits": 14000000},
+                        "9": {"uri": 70000, "credits": 16000000},
+                        "10": {"uri": 80000, "credits": 20000000},
+                        "11": {"uri": 100000, "credits": 40000000},
+                        "12": {"uri": 120000, "credits": 60000000},
+                        "13": {"uri": 140000, "credits": 80000000},
+                        "14": {"uri": 160000, "credits": 100000000},
+                        "15": {"uri": 200000, "credits": 140000000},
+                        "16": {"uri": 250000, "credits": 180000000},
+                        "17": {"uri": 300000, "credits": 220000000},
+                        "18": {"uri": 350000, "credits": 260000000},
+                        "19": {"uri": 400000, "credits": 300000000},
+                        "20": {"uri": 500000, "credits": 400000000}
+                    }},
+                    {"id": 5, "type": "structure", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                        "1": {"uri": 0, "credits": 1000000},
+                        "2": {"uri": 0, "credits": 2000000},
+                        "3": {"uri": 0, "credits": 4000000},
+                        "4": {"uri": 0, "credits": 6000000},
+                        "5": {"uri": 0, "credits": 10000000},
+                        "6": {"uri": 50000, "credits": 10000000},
+                        "7": {"uri": 55000, "credits": 12000000},
+                        "8": {"uri": 62500, "credits": 14000000},
+                        "9": {"uri": 70000, "credits": 16000000},
+                        "10": {"uri": 80000, "credits": 20000000},
+                        "11": {"uri": 100000, "credits": 40000000},
+                        "12": {"uri": 120000, "credits": 60000000},
+                        "13": {"uri": 140000, "credits": 80000000},
+                        "14": {"uri": 160000, "credits": 100000000},
+                        "15": {"uri": 200000, "credits": 140000000},
+                        "16": {"uri": 250000, "credits": 180000000},
+                        "17": {"uri": 300000, "credits": 220000000},
+                        "18": {"uri": 350000, "credits": 260000000},
+                        "19": {"uri": 400000, "credits": 300000000},
+                        "20": {"uri": 500000, "credits": 400000000}
+                    }},
+                    {"id": 6, "type": "superModule", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                        "1": {"uri": 0, "credits": 1000000},
+                        "2": {"uri": 0, "credits": 2000000},
+                        "3": {"uri": 0, "credits": 4000000},
+                        "4": {"uri": 0, "credits": 6000000},
+                        "5": {"uri": 0, "credits": 10000000},
+                        "6": {"uri": 50000, "credits": 10000000},
+                        "7": {"uri": 55000, "credits": 12000000},
+                        "8": {"uri": 62500, "credits": 14000000},
+                        "9": {"uri": 70000, "credits": 16000000},
+                        "10": {"uri": 80000, "credits": 20000000},
+                        "11": {"uri": 100000, "credits": 40000000},
+                        "12": {"uri": 120000, "credits": 60000000},
+                        "13": {"uri": 140000, "credits": 80000000},
+                        "14": {"uri": 160000, "credits": 100000000},
+                        "15": {"uri": 200000, "credits": 140000000},
+                        "16": {"uri": 250000, "credits": 180000000},
+                        "17": {"uri": 300000, "credits": 220000000},
+                        "18": {"uri": 350000, "credits": 260000000},
+                        "19": {"uri": 400000, "credits": 300000000},
+                        "20": {"uri": 500000, "credits": 400000000}
+                    }}
+                ],
+                "clanHqModules": [
+                    {"id": 1, "type": "hq", "maxLvl": 10, "costs": {
+                        "1": {"uri": 0, "credits": 1000000000},
+                        "2": {"uri": 0, "credits": 2000000000},
+                        "3": {"uri": 0, "credits": 4000000000},
+                        "4": {"uri": 0, "credits": 6000000000},
+                        "5": {"uri": 0, "credits": 8000000000},
+                        "6": {"uri": 0, "credits": 1000000000},
+                        "7": {"uri": 0, "credits": 12000000000},
+                        "8": {"uri": 0, "credits": 14000000000},
+                        "9": {"uri": 0, "credits": 16000000000},
+                        "10": {"uri": 0, "credits": 18000000000}
+                    }},
+                    {"id": 2, "type": "clan_op_hub", "scale": 6, "maxLvl": 10, "costs": {
+                        "1": {"uri": 0, "credits": 1000000000},
+                        "2": {"uri": 0, "credits": 1500000000},
+                        "3": {"uri": 0, "credits": 300000000},
+                        "4": {"uri": 100000, "credits": 4500000000},
+                        "5": {"uri": 150000, "credits": 6000000000},
+                        "6": {"uri": 200000, "credits": 7500000000},
+                        "7": {"uri": 250000, "credits": 9000000000},
+                        "8": {"uri": 300000, "credits": 10500000000},
+                        "9": {"uri": 350000, "credits": 12000000000},
+                        "10": {"uri": 400000, "credits": 13500000000}
+                    }},
+                    {"id": 3, "type": "clan_member_quarters", "scale": 5, "steamScale": 3, "maxLvl": 10, "costs": {
+                        "1": {"uri": 0, "credits": 1000000000},
+                        "2": {"uri": 0, "credits": 1500000000},
+                        "3": {"uri": 0, "credits": 3000000000},
+                        "4": {"uri": 100000, "credits": 4000000000},
+                        "5": {"uri": 150000, "credits": 5000000000},
+                        "6": {"uri": 200000, "credits": 600000000},
+                        "7": {"uri": 250000, "credits": 7000000000},
+                        "8": {"uri": 300000, "credits": 8000000000},
+                        "9": {"uri": 350000, "credits": 9000000000},
+                        "10": {"uri": 400000, "credits": 10000000000}
+                    }},
+                    {"id": 4, "type": "clan_sat", "scale": 1, "maxLvl": 1, "costs": {
+                        "1": {"uri": 400000, "credits": 10000000000}
+                    }}
+                ],
+                "tierRewards": {
+                    "1": [
+                        {"type": "item", "id": 1, "val": 2},
+                        {"type": "playerItem", "id": 19, "val": 24, "sectionId" : 11},
+                        {"type": "playerItem", "id": 20, "val": 24, "sectionId" : 11},
+                        {"type": "playerItem", "id": 21, "val": 24, "sectionId" : 11}
+                    ],
+                    "2": [
+                        {"type": "item", "id": 2, "val": 2},
+                        {"type": "item", "id": 4, "val": 1}
+                    ],
+                    "3": [
+                        {"type": "item", "id": 3, "val": 2},
+                        {"type": "item", "id": 2, "val": 2}
+                    ],
+                    "4": [
+                        {"type": "item", "id": 1, "val": 4},
+                        {"type": "item", "id": 2, "val": 4}
+                    ],
+                    "5": [
+                        {"type": "item", "id": 3, "val": 2},
+                        {"type": "item", "id": 4, "val": 2},
+                        {"type": "playerItem", "id": 5, "val": 300000, "sectionId" : 6},
+                        {"type": "playerItem", "id": 6, "val": 50000, "sectionId" : 6},
+                        {"type": "playerItem", "id": 7, "val": 15000, "sectionId" : 6},
+                        {"type": "playerItem", "id": 19, "val": 24, "sectionId" : 11},
+                        {"type": "playerItem", "id": 20, "val": 24, "sectionId" : 11},
+                        {"type": "playerItem", "id": 21, "val": 24, "sectionId" : 11}
+                    ],
+                    "6": [
+                        {"type": "item", "id": 1, "val": 4},
+                        {"type": "item", "id": 2, "val": 4},
+                        {"type": "item", "id": 3, "val": 2}
+                    ],
+                    "7": [
+                        {"type": "item", "id": 4, "val": 2},
+                        {"type": "item", "id": 5, "val": 4},
+                        {"type": "item", "id": 9, "val": 1}
+                    ],
+                    "8": [
+                        {"type": "item", "id": 1, "val": 6},
+                        {"type": "item", "id": 6, "val": 4},
+                        {"type": "item", "id": 4, "val": 1},
+                        {"type": "item", "id": 10, "val": 1}
+                    ],
+                    "9": [
+                        {"type": "item", "id": 1, "val": 6},
+                        {"type": "item", "id": 7, "val": 2},
+                        {"type": "item", "id": 8, "val": 4},
+                        {"type": "item", "id": 4, "val": 1},
+                        {"type": "item", "id": 11, "val": 1},
+                        {"type": "item", "id": 12, "val": 1}
+                    ],
+                    "10": [
+                        {"type": "item", "id": 1, "val": 4},
+                        {"type": "item", "id": 2, "val": 4},
+                        {"type": "item", "id": 3, "val": 4},
+                        {"type": "item", "id": 5, "val": 4},
+                        {"type": "item", "id": 6, "val": 4},
+                        {"type": "item", "id": 7, "val": 4},
+                        {"type": "item", "id": 8, "val": 4},
+                        {"type": "item", "id": 4, "val": 2},
+                        {"type": "playerItem", "id": 5, "val": 500000, "sectionId" : 6},
+                        {"type": "playerItem", "id": 6, "val": 100000, "sectionId" : 6},
+                        {"type": "playerItem", "id": 7, "val": 25000, "sectionId" : 6},
+                        {"type": "playerItem", "id": 146, "val": 1, "sectionId" : 1},
+                        {"type": "playerItem", "id": 2, "val": 1, "sectionId" : 14}
+                    ]
+                },
+                "shopitems": [
+                    {"id": 1, "type": "module_laser", "costData": {"uri": 75000, "credits": 750000000}},
+                    {"id": 2, "type": "module_rocket", "costData": {"uri": 75000, "credits": 750000000}},
+                    {"id": 3, "type": "module_repair", "costData": {"uri": 75000, "credits": 750000000}},
+                    {"id": 4, "type": "structure", "costData": {"uri": 75000, "credits": 750000000}},
+                    {"id": 5, "type": "module_dmg", "costData": {"uri": 75000, "credits": 750000000}},
+                    {"id": 6, "type": "module_xp", "costData": {"uri": 75000, "credits": 750000000}},
+                    {"id": 7, "type": "module_hon", "costData": {"uri": 75000, "credits": 750000000}},
+                    {"id": 8, "type": "module_shd", "costData": {"uri": 75000, "credits": 750000000}},
+                    {"id": 9, "type": "module_beam", "costData": {"uri": 375000, "credits": 375000000}},
+                    {"id": 10, "type": "module_nuke", "costData": {"uri": 375000, "credits": 375000000}},
+                    {"id": 11, "type": "module_prisma", "costData": {"uri": 375000, "credits": 375000000}},
+                    {"id": 12, "type": "module_energy", "costData": {"uri": 375000, "credits": 375000000}}
+                ],
+                "valute": {
+                }
+            }
+        },
+        {
+            "id": 18,
+            "position": 14,
+            "dynamic": true,
+            "name": "spaceball",
+            "icon": "spaceball",
+            "label": "spaceball_label",
+            "controller": {
+                "x": -20,
+                "y": 273,
+                "useDefPosition": true
+            }
+        },
+        {
+            "id": 18,
+            "position": 14,
+            "dynamic": true,
+            "name": "spaceball_new",
+            "icon": "spaceball",
+            "label": "spaceball_label",
+            "controller": {
+                "x": -20,
+                "y": 273,
+                "useDefPosition": true
+            }
+        },
+        {
+            "id": 19,
+            "position": 15,
+            "name": "galaxygate",
+            "icon": "ggBuilder",
+            "minLvl": 6,
+            "label": "galaxygate_label",
+            "isOpen": false,
+            "onOpenExpand": true,
+            "hasComponent": true,
+            "controller": {
+                "x": -20,
+                "y": 273,
+                "useDefPosition": true
+            },
+            "content": {
+                "rewards": {
+                    "1": {
+                      "exp": 2000000,
+                      "hon": 100000,
+                      "uri": 20000,
+                      "qrb101": 20000,
+                      "ap": "35%"
+                    },
+                    "2": {
+                      "exp": 4000000,
+                      "hon": 200000,
+                      "uri": 40000,
+                      "qrb101": 40000,
+                      "zp": "35%"
+                    },
+                    "3": {
+                      "exp": 6000000,
+                      "hon": 300000,
+                      "uri": 60000,
+                      "qrb101": 60000,
+                      "ap": "35%",
+                      "zp": "35%"
+                    },
+                    "4": {
+                      "exp": 8000000,
+                      "hon": 450000,
+                      "uri": 45000,
+                      "bootykey-g": 35,
+                      "qrb101": 35000,
+                      "rlpc75": 5000,
+                      "prl": "30%"
+                    },
+                    "5": {
+                      "exp": 4500000,
+                      "hon": 200000,
+                      "uri": 30000,
+                      "qrb101": 25000,
+                      "bootykey-g": 10,
+                      "lw4": "30%"
+                    },
+                    "6": {
+                      "exp": 5000000,
+                      "hon": 250000,
+                      "uri": 35000,
+                      "bootykey-g": 25,
+                      "qrb101": 20000,
+                      "havoc": "33%"
+                    },
+                    "7": {
+                      "exp": 8000000,
+                      "hon": 400000,
+                      "uri": 25000,
+                      "bootykey-g": 10,
+                      "qrb101": 30000,
+                      "hercules": "25%",
+                      "lw4u": "30%"
+                    },
+                    "8": {
+                      "exp": 655360000,
+                      "hon": 10000000,
+                      "uri": 250000,
+                      "bootykey-r": 20,
+                      "qrb101": 300000,
+                      "rlpc75": 50000,
+                      "gsaturn": "100%"
+                    }
+                }
+            }
+        },
+        {
+            "id": 13,
+            "position": 16,
+            "name": "quests",
+            "icon": "quests",
+            "label": "quests_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "controller": {
+                "x": 20,
+                "y": 273,
+                "useDefPosition": true
+            },
+            "content": {}
+        }, 
+        {
+            "id": 30,
+            "position": 30,
+            "name": "poll",
+            "icon": "poll",
+            "label": "poll_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "size": {
+                "minW": 700,
+                "minH": 450
+            },
+            "controller": {
+                "x": 0,
+                "y": 156,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 33,
+            "position": 33,
+            "name": "piratehunt",
+            "icon": "piratehunt",
+            "label": "piratehunt_label",
+            "minLvl": 10,
+            "isOpen": false,
+            "hasComponent": true,
+            "size": {
+                "minW": 700,
+                "minH": 450
+            },
+            "controller": {
+                "x": 0,
+                "y": 156,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 34,
+            "position": 34,
+            "name": "piratemapmanager",
+            "icon": "piratehunt",
+            "spaceForTicks": true,
+            "label": "piratemapmanager_label",
+            "minLvl": 14,
+            "isOpen": false,
+            "hasComponent": true,
+            "size": {
+                "minW": 700,
+                "minH": 450
+            },
+            "controller": {
+                "x": 0,
+                "y": 156,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 32,
+            "position": 32,
+            "name": "supercalendar",
+            "icon": "supercalendar",
+            "label": "supercalendar_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "size": {
+                "minW": 700,
+                "minH": 450
+            },
+            "controller": {
+                "x": 0,
+                "y": 156,
+                "useDefPosition": true
+            },
+            "content": {}
+        }
+    ]
+}
